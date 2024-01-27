@@ -44,10 +44,11 @@ height = 14.0
 
 [node name="Enemy" type="Area2D"]
 
-[node name="Angry" type="AnimatedSprite2D" parent="."]
+[node name="AngrySkin" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_vo8tx")
+autoplay = "default"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Shape" type="CollisionShape2D" parent="."]
 position = Vector2(0, 8)
 rotation = 4.71239
 shape = SubResource("CapsuleShape2D_w44jn")
