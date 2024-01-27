@@ -76,9 +76,9 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w44jn"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_55dku"]
 radius = 4.0
-height = 14.0
+height = 12.0
 
 [node name="Enemy" type="Area2D"]
 texture_filter = 1
@@ -90,9 +90,12 @@ sprite_frames = SubResource("SpriteFrames_vo8tx")
 autoplay = "default"
 frame_progress = 0.0993487
 
-[node name="Happy" type="AnimatedSprite2D" parent="."]
+[node name="HappySkin" type="AnimatedSprite2D" parent="."]
 visible = false
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_sjhj3")
-
 frame_progress = 0.024973
+
+[node name="EnemyShape" type="CollisionShape2D" parent="."]
+rotation = 4.71239
+shape = SubResource("CapsuleShape2D_55dku")

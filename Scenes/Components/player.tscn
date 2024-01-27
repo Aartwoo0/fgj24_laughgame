@@ -67,7 +67,7 @@ texture_filter = 1
 script = ExtResource("1_km5k5")
 metadata/_edit_group_ = true
 
-[node name="Skin" type="AnimatedSprite2D" parent="."]
+[node name="PlayerSkin" type="AnimatedSprite2D" parent="."]
 position = Vector2(2.38419e-07, -14)
 scale = Vector2(1.33333, 1.33333)
 sprite_frames = SubResource("SpriteFrames_8vi1o")
@@ -75,7 +75,7 @@ animation = &"idle"
 autoplay = "walk"
 frame_progress = 0.126734
 
-[node name="Shape" type="CollisionShape2D" parent="."]
+[node name="PlayerShape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -2)
 rotation = -1.5708
 shape = SubResource("CapsuleShape2D_gr6u7")
