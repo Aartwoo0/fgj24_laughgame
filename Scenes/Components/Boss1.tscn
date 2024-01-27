@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://qdvysnba7ihu"]
+[gd_scene load_steps=9 format=3 uid="uid://qdvysnba7ihu"]
 
 [ext_resource type="Texture2D" uid="uid://dji8884y2u5vb" path="res://Assets/Sprites/Boss1.png" id="1_ifdkp"]
+[ext_resource type="Script" path="res://Scenes/Components/Boss1.gd" id="1_y2a46"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gmrr0"]
 atlas = ExtResource("1_ifdkp")
@@ -44,13 +45,14 @@ radius = 11.0
 [node name="Boss1" type="Area2D"]
 position = Vector2(174, 79)
 scale = Vector2(3, 3)
+script = ExtResource("1_y2a46")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_rxkrf")
 autoplay = "default"
-frame_progress = 0.520417
+frame_progress = 0.708272
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 1)

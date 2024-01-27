@@ -7,7 +7,8 @@ var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	self.area_entered.connect(self.target._on_enemy_area_entered)
+	self.target.area_entered.connect(self._on_player_area_entered)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -25,5 +26,5 @@ func _process(delta):
 		var tangent = direction.from_angle(PI * 3 / 4 * self.rng.randi_range(-1,1))
 		self.position = self.position + tangent
 
-func _on_player_area_entered(area):
+func _on_player_area_entered(_area):
 	self.queue_free()

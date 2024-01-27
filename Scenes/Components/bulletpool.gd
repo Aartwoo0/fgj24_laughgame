@@ -11,9 +11,12 @@ func _ready():
 
 func give_me_bullet_please():
 	var pooled_bullet = pool.get_first_dead()
-	pooled_bullet.show()
+	if (pooled_bullet==null):
+		assert(pooled_bullet==null, "POOL IS OUT OF BULLETS")
+		return
+	pooled_bullet.visible = true
 	return pooled_bullet
 	
 func here_is_your_bullet_back(bullet):
-	bullet.hide()
+	bullet.visible = false
 	pool._on_killed(bullet)

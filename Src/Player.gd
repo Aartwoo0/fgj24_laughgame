@@ -13,7 +13,8 @@ func _ready():
 func _input(event):
 	if event.is_action_pressed("shoot_primary"):
 		var bullet = bulletpool.give_me_bullet_please()
-		bullet.position = self.position + Vector2.from_angle($Gun.rotation)*base_gun_offset_x
+		
+		bullet.position = $Gun.global_position + Vector2.from_angle($Gun.rotation)*base_gun_offset_x
 		bullet.visible = true
 		bullet.shoot(Vector2.from_angle($Gun.rotation))
 		
@@ -49,5 +50,6 @@ func _process(delta):
 	else:
 		$PlayerSkin.play("idle")
 
-func _on_enemy_area_entered(area):
+func _on_enemy_area_entered(_area):
 	self.health -= 10
+	print(self.health)
