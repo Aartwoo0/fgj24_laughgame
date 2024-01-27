@@ -17,3 +17,4 @@ func _on_spawn():
 	enemy.position.x = 100
 	enemy.position.y = 100
 	enemy.target = $Player
+
