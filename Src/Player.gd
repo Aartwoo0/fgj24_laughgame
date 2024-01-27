@@ -9,15 +9,21 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	var moving = false
 	if Input.is_action_pressed("move_down"):
 		self.position.y += speed*delta
-		print(self.position)
+		moving = true
 	if Input.is_action_pressed("move_up"):
 		self.position.y -= speed*delta
-		print(self.position)
+		moving = true
 	if Input.is_action_pressed("move_right"):
 		self.position.x += speed*delta
-		print(self.position)
+		moving = true
 	if Input.is_action_pressed("move_left"):
 		self.position.x -= speed*delta
-		print(self.position)
+		moving = true
+		
+	if moving:
+		$Skin.play("walk")
+	else:
+		$Skin.play("idle")
