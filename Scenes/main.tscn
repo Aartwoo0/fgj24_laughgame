@@ -2,18 +2,19 @@
 
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
-[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bulletpool.tscn" id="4_sv5iy"]
+[ext_resource type="Script" path="res://Src/bandollier.gd" id="3_us10r"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
 
-[node name="Player" parent="." node_paths=PackedStringArray("bulletpool") instance=ExtResource("2_pyvxm")]
+[node name="Player" parent="." node_paths=PackedStringArray("bandolier") instance=ExtResource("2_pyvxm")]
 position = Vector2(449, 270)
-bulletpool = NodePath("../BulletPool")
+bandolier = NodePath("../Bandollier")
 
 [node name="Gestation" type="Timer" parent="."]
 autostart = true
 
-[node name="BulletPool" parent="." instance=ExtResource("4_sv5iy")]
+[node name="Bandollier" type="Node" parent="."]
+script = ExtResource("3_us10r")
 
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]

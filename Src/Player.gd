@@ -1,7 +1,7 @@
 extends Area2D
 
 @export var speed : float = 200
-@export var bulletpool : Node = null
+@export var bandolier : Node = null
 @export var health : int = 1000
 
 var base_gun_offset_x : int = 10
@@ -9,11 +9,11 @@ var base_gun_offset_x : int = 10
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	base_gun_offset_x = $Gun.offset.x
-
+	
 func _input(event):
 	if event.is_action_pressed("shoot_primary"):
-		var bullet = bulletpool.give_me_bullet_please()
-		
+		var bullet = bandolier.get_next_bullet()
+		bullet.originator = self
 		bullet.position = $Gun.global_position + Vector2.from_angle($Gun.rotation)*base_gun_offset_x
 		bullet.visible = true
 		bullet.shoot(Vector2.from_angle($Gun.rotation))
