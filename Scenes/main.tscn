@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2kmhotfobadm"]
+[gd_scene load_steps=5 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
 [ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bulletpool.tscn" id="4_sv5iy"]
+[ext_resource type="PackedScene" uid="uid://qdvysnba7ihu" path="res://Scenes/Components/Boss1.tscn" id="6_2ki48"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
@@ -15,5 +16,7 @@ bulletpool = NodePath("../BulletPool")
 autostart = true
 
 [node name="BulletPool" parent="." instance=ExtResource("4_sv5iy")]
+
+[node name="Boss1" parent="." instance=ExtResource("6_2ki48")]
 
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]
