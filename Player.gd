@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var speed : float = 5
+@export var speed : float = 200
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -44,8 +44,8 @@ animations = [{
 }]
 
 [node name="Player" type="Area2D"]
-position = Vector2(123, 79)
 script = ExtResource("1_fhvm7")
+metadata/_edit_group_ = true
 
 [node name="Shape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -2)
