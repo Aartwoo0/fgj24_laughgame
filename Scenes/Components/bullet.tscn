@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://dgpdqxn3gdb0u"]
+[gd_scene load_steps=7 format=3 uid="uid://dgpdqxn3gdb0u"]
 
 [ext_resource type="Script" path="res://Scenes/Components/bullet.gd" id="1_6dhpu"]
 [ext_resource type="Texture2D" uid="uid://dbp1tv8y224je" path="res://Assets/Sprites/bullet.png" id="1_jsofu"]
-[ext_resource type="Script" path="res://Scenes/Components/bulletpool.gd" id="1_mbsg3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pfk0n"]
 atlas = ExtResource("1_jsofu")
@@ -29,21 +28,16 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_agorc"]
 radius = 3.0
 
-[node name="BulletPool" type="Node"]
-script = ExtResource("1_mbsg3")
-
-[node name="Bullet" type="Area2D" parent="."]
+[node name="Bullet" type="Area2D"]
 visible = false
 script = ExtResource("1_6dhpu")
 speed = 300.0
 metadata/_edit_group_ = true
 
-[node name="Jacket" type="AnimatedSprite2D" parent="Bullet"]
+[node name="Jacket" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_btbnc")
 
-[node name="Shape" type="CollisionShape2D" parent="Bullet"]
+[node name="Shape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
 shape = SubResource("CircleShape2D_agorc")
-
-[node name="Bullets" type="Node" parent="."]
