@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://qdvysnba7ihu"]
+
+[ext_resource type="Texture2D" uid="uid://dji8884y2u5vb" path="res://Assets/Sprites/Boss1.png" id="1_ifdkp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmrr0"]
+atlas = ExtResource("1_ifdkp")
+region = Rect2(0, 0, 24, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ieaj"]
+atlas = ExtResource("1_ifdkp")
+region = Rect2(24, 0, 24, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8glpr"]
+atlas = ExtResource("1_ifdkp")
+region = Rect2(48, 0, 24, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xssjl"]
+atlas = ExtResource("1_ifdkp")
+region = Rect2(72, 0, 24, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rxkrf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gmrr0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ieaj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8glpr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xssjl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sahxp"]
+radius = 11.0
+
+[node name="Boss1" type="Area2D"]
+position = Vector2(174, 79)
+scale = Vector2(3, 3)
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_rxkrf")
+autoplay = "default"
+frame_progress = 0.520417
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_sahxp")
