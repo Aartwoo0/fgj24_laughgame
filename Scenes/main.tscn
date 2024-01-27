@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://d1phbbkiw7aui"]
+[gd_scene load_steps=5 format=3 uid="uid://d1phbbkiw7aui"]
 
 [ext_resource type="PackedScene" uid="uid://bwa6h1jwoci3e" path="res://Scenes/Components/enemy.tscn" id="1_dubb1"]
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dnooslo0acpgj" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
+[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bulletpool.tscn" id="4_k2ntv"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
@@ -11,11 +12,14 @@ script = ExtResource("1_pp0ss")
 position = Vector2(247, 241)
 target = NodePath("../Player")
 
-[node name="Player" parent="." instance=ExtResource("2_pyvxm")]
+[node name="Player" parent="." node_paths=PackedStringArray("bulletpool") instance=ExtResource("2_pyvxm")]
 position = Vector2(449, 270)
+bulletpool = NodePath("../BulletPool")
 
 [node name="Gestation" type="Timer" parent="."]
 wait_time = 3.0
 autostart = true
+
+[node name="BulletPool" parent="." instance=ExtResource("4_k2ntv")]
 
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]

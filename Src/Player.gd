@@ -1,6 +1,7 @@
 extends Area2D
 
 @export var speed : float = 200
+@export var bulletpool : Node = null
 
 var base_gun_offset_x : int = 10
 
@@ -10,11 +11,10 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("shoot_primary"):
-		var bullet = Sprite2D.new()
-		bullet.texture = load("res://Assets/Sprites/gun.png")
-		var root = get_tree().root.get_child(0)
-		bullet.position = self.position
-		root.add_child(bullet)
+		var bullet = bulletpool.give_me_bullet_please()
+		bullet.position = self.position + Vector2.from_angle($Gun.rotation)*base_gun_offset_x
+		bullet.visible = true
+		bullet.shoot(Vector2.from_angle($Gun.rotation))
 		
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
