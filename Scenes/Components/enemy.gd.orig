@@ -11,12 +11,16 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+<<<<<<< HEAD
+	self.position = self.position.move_toward(target.position,speed * delta)
+	
+=======
 	if state < 0:
 		$AngrySkin.visible = true
-		$HappySkin.visible = false
+		$Happy.visible = false
 	else:
 		$AngrySkin.visible = false
-		$HappySkin.visible = true
+		$Happy.visible = true
 	
 	if not self.has_overlapping_areas():
 		self.position = self.position.move_toward(target.position,speed * delta)
@@ -27,3 +31,4 @@ func _process(delta):
 
 func _on_player_area_entered(area):
 	self.queue_free()
+>>>>>>> ce9bc1a077f327eea8ebf30463ec6dee3cbcfd8d
