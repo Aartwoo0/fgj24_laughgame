@@ -27,7 +27,6 @@ func _process(delta):
 	$Jacket.rotation = direction.angle()
 	
 	var dist = origin.distance_to(self.position)
-	print(str(dist)+","+str(dissappear_threshold))
 	if dist>dissappear_threshold:
 		self.visible = false
 		
