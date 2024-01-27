@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://bwa6h1jwoci3e"]
+[gd_scene load_steps=14 format=3 uid="uid://bwa6h1jwoci3e"]
 
 [ext_resource type="Texture2D" uid="uid://bfuqrmlgh563q" path="res://Assets/Sprites/Angryenemy.png" id="1_pw0wy"]
+[ext_resource type="Texture2D" uid="uid://ie6w1llx7x7w" path="res://Assets/Sprites/Happyenemy.png" id="2_65eik"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ycas4"]
 atlas = ExtResource("1_pw0wy")
@@ -42,6 +43,42 @@ animations = [{
 radius = 4.0
 height = 14.0
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6yer"]
+atlas = ExtResource("2_65eik")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xflwl"]
+atlas = ExtResource("2_65eik")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6iba1"]
+atlas = ExtResource("2_65eik")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbidy"]
+atlas = ExtResource("2_65eik")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sjhj3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6yer")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xflwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6iba1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbidy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="Enemy" type="Area2D"]
 
 [node name="AngrySkin" type="AnimatedSprite2D" parent="."]
@@ -52,3 +89,7 @@ autoplay = "default"
 position = Vector2(0, 8)
 rotation = 4.71239
 shape = SubResource("CapsuleShape2D_w44jn")
+
+[node name="Happy" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_sjhj3")
+frame_progress = 0.387619
