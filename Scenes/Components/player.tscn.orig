@@ -1,8 +1,12 @@
-[gd_scene load_steps=12 format=3 uid="uid://dxitnf0ko0d5r"]
+<<<<<<< HEAD
+[gd_scene load_steps=12 format=3 uid="uid://dnooslo0acpgj"]
+=======
+[gd_scene load_steps=11 format=3 uid="uid://dxitnf0ko0d5r"]
+>>>>>>> ce9bc1a077f327eea8ebf30463ec6dee3cbcfd8d
 
 [ext_resource type="Script" path="res://Src/Player.gd" id="1_km5k5"]
 [ext_resource type="Texture2D" uid="uid://crd3wudyq1sep" path="res://Assets/Sprites/Player.png" id="2_blp1s"]
-[ext_resource type="Texture2D" uid="uid://bi7j2mgaidwdm" path="res://Assets/Sprites/gun.png" id="3_d84yn"]
+[ext_resource type="Texture2D" uid="uid://bi7j2mgaidwdm" path="res://Assets/Sprites/gun.png" id="3_urn65"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qyv3o"]
 atlas = ExtResource("2_blp1s")
@@ -66,22 +70,25 @@ height = 16.0
 [node name="Player" type="Area2D"]
 texture_filter = 1
 script = ExtResource("1_km5k5")
-metadata/_edit_group_ = true
 
 [node name="PlayerSkin" type="AnimatedSprite2D" parent="."]
-position = Vector2(2.38415e-07, -14)
+position = Vector2(2.38419e-07, -14)
 scale = Vector2(1.33333, 1.33333)
 sprite_frames = SubResource("SpriteFrames_8vi1o")
 animation = &"idle"
 autoplay = "walk"
-frame_progress = 0.126734
+<<<<<<< HEAD
+frame_progress = 0.467594
 
 [node name="Gun" type="Sprite2D" parent="."]
-position = Vector2(0, -11)
-texture = ExtResource("3_d84yn")
-offset = Vector2(15, 0)
+position = Vector2(0, -8)
+texture = ExtResource("3_urn65")
+offset = Vector2(17, 0)
+=======
+frame_progress = 0.126734
 
 [node name="PlayerShape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -2)
 rotation = -1.5708
 shape = SubResource("CapsuleShape2D_gr6u7")
+>>>>>>> ce9bc1a077f327eea8ebf30463ec6dee3cbcfd8d

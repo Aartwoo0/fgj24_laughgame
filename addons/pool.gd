@@ -41,9 +41,10 @@ func init():
 		return
 
 	for i in range(size):
-		var s = scene.instance()
+		var s = scene.duplicate()
 		s.set_name(prefix + "_" + str(i))
-		s.connect("killed", self, "_on_killed")
+		s.set_process_mode(4) # 4 = PROCESS_MODE_DISABLED
+		s.tree_exited.connect(self._on_killed.bind(s))
 		dead.push_back(s)
 
 func get_prefix():
@@ -65,14 +66,11 @@ func get_dead_size():
 func get_first_dead():
 	var ds = dead.size()
 	if ds > 0:
-		var o = dead[ds - 1]
-		if !o.dead: return null
-
+		var o = dead.pop_back()
 		var n = o.get_name()
 		alive[n] = o
-		dead.pop_back()
 		o.dead = false
-		o.set_pause_mode(0)
+		o.set_process_mode(0) # 0 = PROCESS_MODE_INHERIT
 		return o
 
 	return null
@@ -124,6 +122,6 @@ func _on_killed(target):
 	# Add the killed object to the dead pool, now available for use
 	dead.push_back(target)
 
-	target.set_pause_mode(1)
-
+	target.set_process_mode(4) # 4 = PROCESS_MODE_DISABLED
+	
 	emit_signal("killed", target)

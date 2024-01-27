@@ -1,10 +1,13 @@
 extends Area2D
 
 @export var speed : float = 200
+<<<<<<< HEAD
 @export var bulletpool : Node = null
-@export var health : int = 1000
 
 var base_gun_offset_x : int = 10
+=======
+var health : int = 1000
+>>>>>>> ce9bc1a077f327eea8ebf30463ec6dee3cbcfd8d
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -38,16 +41,17 @@ func _process(delta):
 	$Gun.flip_v = $Gun.rotation > PI/2 and $Gun.rotation < 3*PI/2
 	$Gun.offset.x = (0.5 * abs(cos($Gun.rotation)) + 0.5)*base_gun_offset_x
 	if $Gun.rotation > 5*PI/4 and $Gun.rotation < 7*PI/4:
-		if $PlayerSkin.get_index()<$Gun.get_index():
-			self.move_child($Gun, $PlayerSkin.get_index())
+		if $Skin.get_index()<$Gun.get_index():
+			self.move_child($Gun, $Skin.get_index())
 	else:
-		if $PlayerSkin.get_index()>$Gun.get_index():
-			self.move_child($Gun, $PlayerSkin.get_index()+1)
+		if $Skin.get_index()>$Gun.get_index():
+			self.move_child($Gun, $Skin.get_index()+1)
 	
 	if moving:
-		$PlayerSkin.play("walk")
+		$Skin.play("walk")
 	else:
-		$PlayerSkin.play("idle")
+		$Skin.play("idle")
+
 
 func _on_enemy_area_entered(area):
 	self.health -= 10
