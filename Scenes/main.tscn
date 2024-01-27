@@ -9,8 +9,11 @@
 script = ExtResource("1_pp0ss")
 
 [node name="Player" parent="." node_paths=PackedStringArray("bulletpool") instance=ExtResource("2_pyvxm")]
-position = Vector2(449, 270)
+position = Vector2(772, 460)
 bulletpool = NodePath("../BulletPool")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(1, -9)
 
 [node name="Gestation" type="Timer" parent="."]
 autostart = true
