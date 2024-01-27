@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bwa6h1jwoci3e"]
+
+[ext_resource type="Texture2D" uid="uid://bfuqrmlgh563q" path="res://Assets/Sprites/Angryenemy.png" id="1_pw0wy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycas4"]
+atlas = ExtResource("1_pw0wy")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01s87"]
+atlas = ExtResource("1_pw0wy")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7b1g1"]
+atlas = ExtResource("1_pw0wy")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5o302"]
+atlas = ExtResource("1_pw0wy")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vo8tx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycas4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01s87")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7b1g1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5o302")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vo8tx")
+frame_progress = 0.0986809
