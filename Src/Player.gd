@@ -49,5 +49,6 @@ func _process(delta):
 	else:
 		$PlayerSkin.play("idle")
 
-func _on_enemy_area_entered(area):
+func _on_enemy_area_entered(_area):
 	self.health -= 10
+	print(self.health)
