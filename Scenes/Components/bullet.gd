@@ -6,15 +6,13 @@ extends Area2D
 
 # When the bullet is far enough from the tree, it is removed
 @export var originator : Area2D = null
-@export var dissappear_threshold : float = 1000
+@export var dissappear_threshold : float = 500
 
 var origin = Vector2(0,0)
-
 var direction : Vector2
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
 	pass # Replace with function body.
 	
 func shoot(towards):
@@ -28,8 +26,8 @@ func _process(delta):
 	self.position += direction*speed*delta
 	$Jacket.rotation = direction.angle()
 	
-	if origin.distance_to(self.position)>dissappear_threshold:
-		# TODO: Find a smarter way to pool
-		pass 
-		#.here_is_your_bullet_back(self)
+	var dist = origin.distance_to(self.position)
+	if dist>dissappear_threshold:
+		self.visible = false
+		
 	

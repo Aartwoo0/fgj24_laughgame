@@ -1,19 +1,27 @@
-[gd_scene load_steps=5 format=3 uid="uid://d2kmhotfobadm"]
+[gd_scene load_steps=7 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
 [ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bulletpool.tscn" id="4_sv5iy"]
+[ext_resource type="Script" path="res://Src/lookPoint.gd" id="3_4ygls"]
+[ext_resource type="Script" path="res://Src/bandollier.gd" id="3_us10r"]
+[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bullet.tscn" id="4_sv5iy"]
 [ext_resource type="PackedScene" uid="uid://qdvysnba7ihu" path="res://Scenes/Components/Boss1.tscn" id="6_2ki48"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
 
-[node name="Player" parent="." node_paths=PackedStringArray("bulletpool") instance=ExtResource("2_pyvxm")]
-position = Vector2(772, 460)
-bulletpool = NodePath("../BulletPool")
+[node name="Player" parent="." node_paths=PackedStringArray("bandolier") instance=ExtResource("2_pyvxm")]
+position = Vector2(449, 270)
+bandolier = NodePath("../Bandollier")
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(1, -9)
+[node name="LookPoint" type="Node2D" parent="."]
+script = ExtResource("3_4ygls")
+
+[node name="Camera2D" type="Camera2D" parent="LookPoint"]
+position = Vector2(450, 261)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
 
 [node name="Gestation" type="Timer" parent="."]
 autostart = true
@@ -21,5 +29,8 @@ autostart = true
 [node name="BulletPool" parent="." instance=ExtResource("4_sv5iy")]
 
 [node name="Boss1" parent="." instance=ExtResource("6_2ki48")]
+
+[node name="Bandollier" type="Node" parent="."]
+script = ExtResource("3_us10r")
 
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]

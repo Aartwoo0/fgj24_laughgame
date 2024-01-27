@@ -85,3 +85,5 @@ offset = Vector2(15, 0)
 position = Vector2(0, -2)
 rotation = -1.5708
 shape = SubResource("CapsuleShape2D_gr6u7")
+
+[node name="Bandolier" type="Node" parent="."]
