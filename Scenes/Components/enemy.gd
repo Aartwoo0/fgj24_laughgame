@@ -33,5 +33,6 @@ func _process(delta):
 
 func _on_player_area_entered(enemy_area):
 	if enemy_area==self:
-		self.target = null
-		self.queue_free()
+		self.state = 1;
+	#	self.target = null
+	#	self.queue_free()
