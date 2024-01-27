@@ -1,6 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://bwa6h1jwoci3e"]
+[gd_scene load_steps=15 format=3 uid="uid://bwa6h1jwoci3e"]
 
 [ext_resource type="Texture2D" uid="uid://bfuqrmlgh563q" path="res://Assets/Sprites/Angryenemy.png" id="1_pw0wy"]
+[ext_resource type="Script" path="res://Scenes/Components/enemy.gd" id="1_xc4sj"]
 [ext_resource type="Texture2D" uid="uid://ie6w1llx7x7w" path="res://Assets/Sprites/Happyenemy.png" id="2_65eik"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ycas4"]
@@ -80,6 +81,7 @@ animations = [{
 }]
 
 [node name="Enemy" type="Area2D"]
+script = ExtResource("1_xc4sj")
 
 [node name="Angry" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_vo8tx")
