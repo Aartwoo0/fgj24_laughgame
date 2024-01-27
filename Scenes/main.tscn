@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
-[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bulletpool.tscn" id="4_sv5iy"]
 [ext_resource type="Script" path="res://Src/lookPoint.gd" id="3_4ygls"]
 [ext_resource type="Script" path="res://Src/bandollier.gd" id="3_us10r"]
 [ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bullet.tscn" id="4_sv5iy"]
