@@ -81,11 +81,13 @@ animations = [{
 }]
 
 [node name="Enemy" type="Area2D"]
+texture_filter = 1
 script = ExtResource("1_xc4sj")
 
 [node name="AngrySkin" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_vo8tx")
 autoplay = "default"
+frame_progress = 0.719817
 
 [node name="Shape" type="CollisionShape2D" parent="."]
 position = Vector2(0, 8)
@@ -94,4 +96,4 @@ shape = SubResource("CapsuleShape2D_w44jn")
 
 [node name="Happy" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sjhj3")
-frame_progress = 0.387619
+frame_progress = 0.898543
