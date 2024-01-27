@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dnooslo0acpgj"]
+[gd_scene load_steps=11 format=3 uid="uid://dnooslo0acpgj"]
 
 [ext_resource type="Script" path="res://Src/Player.gd" id="1_km5k5"]
 [ext_resource type="Texture2D" uid="uid://crd3wudyq1sep" path="res://Assets/Sprites/Player.png" id="2_blp1s"]
@@ -6,6 +6,14 @@
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gr6u7"]
 radius = 3.0
 height = 16.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyv3o"]
+atlas = ExtResource("2_blp1s")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rm8ah"]
+atlas = ExtResource("2_blp1s")
+region = Rect2(96, 0, 24, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1unvy"]
 atlas = ExtResource("2_blp1s")
@@ -25,6 +33,17 @@ region = Rect2(72, 0, 24, 24)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8vi1o"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyv3o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rm8ah")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_1unvy")
@@ -56,6 +75,6 @@ shape = SubResource("CapsuleShape2D_gr6u7")
 position = Vector2(2.38419e-07, -14)
 scale = Vector2(1.33333, 1.33333)
 sprite_frames = SubResource("SpriteFrames_8vi1o")
-animation = &"walk"
+animation = &"idle"
 autoplay = "walk"
-frame_progress = 0.376447
+frame_progress = 0.126734
