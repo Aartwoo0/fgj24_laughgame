@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://d1phbbkiw7aui"]
+[gd_scene load_steps=4 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="PackedScene" uid="uid://bwa6h1jwoci3e" path="res://Scenes/Components/enemy.tscn" id="1_dubb1"]
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
-[ext_resource type="PackedScene" uid="uid://dnooslo0acpgj" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
+[ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
@@ -18,4 +18,6 @@ position = Vector2(449, 270)
 wait_time = 3.0
 autostart = true
 
+[connection signal="area_entered" from="Enemy" to="Player" method="_on_enemy_area_entered"]
+[connection signal="area_entered" from="Player" to="Enemy" method="_on_player_area_entered"]
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]

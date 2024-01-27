@@ -1,11 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://dnooslo0acpgj"]
+[gd_scene load_steps=11 format=3 uid="uid://dxitnf0ko0d5r"]
 
 [ext_resource type="Script" path="res://Src/Player.gd" id="1_km5k5"]
 [ext_resource type="Texture2D" uid="uid://crd3wudyq1sep" path="res://Assets/Sprites/Player.png" id="2_blp1s"]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gr6u7"]
-radius = 3.0
-height = 16.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qyv3o"]
 atlas = ExtResource("2_blp1s")
@@ -62,14 +58,14 @@ animations = [{
 "speed": 15.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gr6u7"]
+radius = 3.0
+height = 16.0
+
 [node name="Player" type="Area2D"]
+texture_filter = 1
 script = ExtResource("1_km5k5")
 metadata/_edit_group_ = true
-
-[node name="Shape" type="CollisionShape2D" parent="."]
-position = Vector2(0, -2)
-rotation = 4.71239
-shape = SubResource("CapsuleShape2D_gr6u7")
 
 [node name="Skin" type="AnimatedSprite2D" parent="."]
 position = Vector2(2.38419e-07, -14)
@@ -78,3 +74,8 @@ sprite_frames = SubResource("SpriteFrames_8vi1o")
 animation = &"idle"
 autoplay = "walk"
 frame_progress = 0.126734
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_gr6u7")

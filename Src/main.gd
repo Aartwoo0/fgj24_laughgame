@@ -13,7 +13,7 @@ func _process(delta):
 
 func _on_spawn():
 	var enemy = enemyTemplate.instantiate()
+	self.add_child(enemy)
 	enemy.position.x = 100
 	enemy.position.y = 100
 	enemy.target = $Player
-	self.add_child(enemy)

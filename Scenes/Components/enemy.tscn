@@ -40,10 +40,6 @@ animations = [{
 "speed": 15.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w44jn"]
-radius = 4.0
-height = 14.0
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_f6yer"]
 atlas = ExtResource("2_65eik")
 region = Rect2(0, 0, 24, 24)
@@ -80,20 +76,26 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w44jn"]
+radius = 4.0
+height = 14.0
+
 [node name="Enemy" type="Area2D"]
 texture_filter = 1
 script = ExtResource("1_xc4sj")
 
 [node name="AngrySkin" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_vo8tx")
 autoplay = "default"
 frame_progress = 0.719817
 
-[node name="Shape" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
-rotation = 4.71239
-shape = SubResource("CapsuleShape2D_w44jn")
-
 [node name="Happy" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_sjhj3")
 frame_progress = 0.898543
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_w44jn")
