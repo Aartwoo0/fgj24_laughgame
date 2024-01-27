@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2kmhotfobadm"]
+[gd_scene load_steps=6 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="Script" path="res://Src/main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
 [ext_resource type="Script" path="res://Src/bandollier.gd" id="3_us10r"]
+[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bullet.tscn" id="4_sv5iy"]
+[ext_resource type="PackedScene" uid="uid://qdvysnba7ihu" path="res://Scenes/Components/Boss1.tscn" id="6_2ki48"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
@@ -11,8 +13,15 @@ script = ExtResource("1_pp0ss")
 position = Vector2(449, 270)
 bandolier = NodePath("../Bandollier")
 
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(1, -9)
+
 [node name="Gestation" type="Timer" parent="."]
 autostart = true
+
+[node name="BulletPool" parent="." instance=ExtResource("4_sv5iy")]
+
+[node name="Boss1" parent="." instance=ExtResource("6_2ki48")]
 
 [node name="Bandollier" type="Node" parent="."]
 script = ExtResource("3_us10r")
