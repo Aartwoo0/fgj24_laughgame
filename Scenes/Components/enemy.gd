@@ -9,6 +9,8 @@ var rng = RandomNumberGenerator.new()
 func _ready():
 	self.area_entered.connect(self.target._on_enemy_area_entered)
 	self.target.area_entered.connect(self._on_player_area_entered)
+	
+	self.target.area_entered.get_connections()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -19,6 +21,9 @@ func _process(delta):
 		$AngrySkin.visible = false
 		$HappySkin.visible = true
 	
+	if target==null:
+		return
+	
 	if not self.has_overlapping_areas():
 		self.position = self.position.move_toward(target.position,speed * delta)
 	else:
@@ -26,5 +31,7 @@ func _process(delta):
 		var tangent = direction.from_angle(PI * 3 / 4 * self.rng.randi_range(-1,1))
 		self.position = self.position + tangent
 
-func _on_player_area_entered(_area):
-	self.queue_free()
+func _on_player_area_entered(enemy_area):
+	if enemy_area==self:
+		self.target = null
+		self.queue_free()
