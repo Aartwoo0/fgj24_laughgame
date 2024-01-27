@@ -91,3 +91,4 @@ shape = SubResource("CapsuleShape2D_w44jn")
 
 [node name="Happy" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sjhj3")
+frame_progress = 0.387619
