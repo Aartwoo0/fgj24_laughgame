@@ -43,19 +43,24 @@ func _input(event):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	var moving = false
+	var newpos = self.position
 	if Input.is_action_pressed("move_down"):
-		self.position.y += speed*delta
+		newpos.y += speed*delta
 		moving = true
 	if Input.is_action_pressed("move_up"):
-		self.position.y -= speed*delta
+		newpos.y -= speed*delta
 		moving = true
 	if Input.is_action_pressed("move_right"):
-		self.position.x += speed * delta
+		newpos.x += speed * delta
 		moving = true
 	if Input.is_action_pressed("move_left"):
-		self.position.x -= speed * delta
+		newpos.x -= speed * delta
 		moving = true
-	
+		
+	var is_inside_play_area = Geometry2D.is_point_in_polygon(newpos, %Limits.polygon)
+	if is_inside_play_area:
+		self.position = newpos
+		
 	if hitting_with_a_stick_ugly_quickfix>0.0:
 		if hitting_with_a_stick_ugly_quickfix>3.0*SWING_SPEED/4.0:
 			$Stick.rotation+=SWING_STRENGTH*PI*delta
@@ -78,8 +83,6 @@ func _process(delta):
 			self.move_child(weapon_of_choice, $PlayerSkin.get_index()+1)
 	
 	# This is just manually coded hit animation
-	
-	
 	
 	if moving:
 		$PlayerSkin.play("walk")
