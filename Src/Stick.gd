@@ -12,5 +12,11 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	velocity = _prev_parent_rotation-get_parent().rotation
+	var angle_diff = _prev_parent_rotation-get_parent().rotation
+	while angle_diff > PI:
+		angle_diff -= 2 * PI
+	while angle_diff < -PI:
+		angle_diff += 2 * PI
+		
+	velocity = angle_diff
 	_prev_parent_rotation = get_parent().rotation
