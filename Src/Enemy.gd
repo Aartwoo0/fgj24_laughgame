@@ -58,3 +58,7 @@ func _on_player_area_entered(enemy_area):
 		self.state = 1;
 	#	self.target = null
 	#	self.queue_free()
+
+
+func _on_enemy_hitbox_area_entered(bullet):
+	
