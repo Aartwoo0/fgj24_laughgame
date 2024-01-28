@@ -4,7 +4,7 @@ class_name Player
 
 @export var speed : float = 200
 @export var bandolier : Node = null
-@export var health : int = 1000
+@export var health : int = 3
 
 var base_gun_offset_x : int = 10
 var weapon_of_choice : Sprite2D = null
@@ -16,6 +16,7 @@ const SWING_STRENGTH = 5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	player_health.text = 'Player: ' + str(self.health)
 	base_gun_offset_x = $Gun.offset.x
 	weapon_of_choice = $Gun
 	
@@ -91,5 +92,5 @@ func _process(delta):
 
 func _on_enemy_area_entered(enemy_area):
 	if enemy_area is Player:
-		self.health -= 100
+		self.health -= 1
 		player_health.text = 'Player: ' + str(self.health)
