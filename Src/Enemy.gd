@@ -63,4 +63,4 @@ func _on_enemy_hitbox_area_entered(bullet):
 	if bullet is Bullet:
 		bullet.visible = false
 		if self.state < 1:
-			self.state += 400
+			self.state += 500
