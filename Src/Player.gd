@@ -28,10 +28,10 @@ func _process(delta):
 		self.position.y -= speed*delta
 		moving = true
 	if Input.is_action_pressed("move_right"):
-		self.position.x += speed*delta
+		self.position.x += speed * delta
 		moving = true
 	if Input.is_action_pressed("move_left"):
-		self.position.x -= speed*delta
+		self.position.x -= speed * delta
 		moving = true
 	
 	var angle_to_mouse = self.position.angle_to_point(get_global_mouse_position())
@@ -52,4 +52,3 @@ func _process(delta):
 
 func _on_enemy_area_entered(enemy_area):
 	self.health -= 10
-	print(self.health)

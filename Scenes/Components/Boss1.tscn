@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://qdvysnba7ihu"]
 
 [ext_resource type="Texture2D" uid="uid://dji8884y2u5vb" path="res://Assets/Sprites/Boss1.png" id="1_ifdkp"]
-[ext_resource type="Script" path="res://Scenes/Components/Boss1.gd" id="1_y2a46"]
+[ext_resource type="Script" path="res://Src/Boss1.gd" id="1_y2a46"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gmrr0"]
 atlas = ExtResource("1_ifdkp")
