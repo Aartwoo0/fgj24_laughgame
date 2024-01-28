@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://d2kmhotfobadm"]
+[gd_scene load_steps=8 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="Script" path="res://Src/Main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
@@ -6,9 +6,37 @@
 [ext_resource type="Script" path="res://Src/Bandollier.gd" id="3_us10r"]
 [ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bullet.tscn" id="4_sv5iy"]
 [ext_resource type="PackedScene" uid="uid://qdvysnba7ihu" path="res://Scenes/Components/Boss1.tscn" id="6_2ki48"]
+[ext_resource type="Texture2D" uid="uid://ck53pjkuot6mh" path="res://Assets/Tileset/Assets - Basic Cubes/Materials/GROUND.png" id="7_2oak0"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_pp0ss")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 132.0
+offset_top = 1708.0
+offset_right = 601.0
+offset_bottom = 2413.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -1.5708
+texture = ExtResource("7_2oak0")
+stretch_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 980.0
+offset_top = -256.0
+offset_right = 1449.0
+offset_bottom = 449.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_2oak0")
 
 [node name="Player" parent="." node_paths=PackedStringArray("bandolier") instance=ExtResource("2_pyvxm")]
 position = Vector2(449, 270)
