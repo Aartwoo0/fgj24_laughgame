@@ -1,4 +1,6 @@
 extends Area2D
+class_name Player
+@onready var player_health = %PlayerHealth
 
 @export var speed : float = 200
 @export var bandolier : Node = null
@@ -85,4 +87,6 @@ func _process(delta):
 		$PlayerSkin.play("idle")
 
 func _on_enemy_area_entered(enemy_area):
-	self.health -= 10
+	if enemy_area is Player:
+		self.health -= 100
+		player_health.text = 'Player: ' + str(self.health)

@@ -1,1 +1,1 @@
-Add level sceles that are composed of other components (see Components folder)
+Add level scenes that are composed of other components (see Components folder)

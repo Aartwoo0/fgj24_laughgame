@@ -2,6 +2,7 @@ extends Node2D
 
 var enemyTemplate : PackedScene = load("res://Scenes/Components/enemy.tscn")
 var aimCursor = load("res://Assets/aim.png")
+var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,7 +20,7 @@ func _process(_delta):
 
 func _on_spawn():
 	var enemy = enemyTemplate.instantiate()
-	enemy.position.x = 100
-	enemy.position.y = 100
+	enemy.position.x = $Boss1.position.x + rng.randi_range(-50,50)
+	enemy.position.y = $Boss1.position.y + 50
 	enemy.target = $Player
 	self.add_child(enemy)

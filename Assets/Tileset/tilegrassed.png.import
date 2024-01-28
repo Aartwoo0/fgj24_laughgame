@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4kc2roxcynau"
-path="res://.godot/imported/COLOR PALETTE.png-0ceb3119b13f6491c87df1243a19b50f.ctex"
+uid="uid://cfpfqjl5fu7gc"
+path="res://.godot/imported/tilegrassed.png-785074a776a404432d411b2b4c07b96c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Assets - Basic Cubes/Materials/COLOR PALETTE.png"
-dest_files=["res://.godot/imported/COLOR PALETTE.png-0ceb3119b13f6491c87df1243a19b50f.ctex"]
+source_file="res://Assets/Tileset/tilegrassed.png"
+dest_files=["res://.godot/imported/tilegrassed.png-785074a776a404432d411b2b4c07b96c.ctex"]
 
 [params]
 
