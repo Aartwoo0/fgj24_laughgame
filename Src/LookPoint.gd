@@ -9,4 +9,4 @@ func _process(delta):
 	# Divided by 4.0, why? Who knows! :D
 	var screenSize : Vector2 = -(DisplayServer.screen_get_size()/4.0)
 	self.position = screenSize+(($"../Player".position*3+get_global_mouse_position())/4.0)
-	print(self.position)
+	#print(self.position)
