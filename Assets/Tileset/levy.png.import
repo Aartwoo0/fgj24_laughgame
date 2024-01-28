@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck53pjkuot6mh"
-path="res://.godot/imported/GROUND.png-353e5a0256e48769adda6792a1312a70.ctex"
+uid="uid://dv2dwbaiself7"
+path="res://.godot/imported/levy.png-9c4078686e48b88d292c830a58aa50d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Assets - Basic Cubes/Materials/GROUND.png"
-dest_files=["res://.godot/imported/GROUND.png-353e5a0256e48769adda6792a1312a70.ctex"]
+source_file="res://Assets/Tileset/levy.png"
+dest_files=["res://.godot/imported/levy.png-9c4078686e48b88d292c830a58aa50d5.ctex"]
 
 [params]
 

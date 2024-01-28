@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djq12yp0bh4ls"
-path="res://.godot/imported/Tileset Snow 32x32.png-a870e195d1b0cb5e3a6725c6cdcfe7b0.ctex"
+uid="uid://dynbbkcqnvd7j"
+path="res://.godot/imported/tile cracked.png-379495402772397b438fea3052533d5e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Assets - Basic Cubes/Ground/Tileset Snow 32x32.png"
-dest_files=["res://.godot/imported/Tileset Snow 32x32.png-a870e195d1b0cb5e3a6725c6cdcfe7b0.ctex"]
+source_file="res://Assets/Tileset/tile cracked.png"
+dest_files=["res://.godot/imported/tile cracked.png-379495402772397b438fea3052533d5e.ctex"]
 
 [params]
 
