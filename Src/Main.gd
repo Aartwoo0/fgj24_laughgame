@@ -20,7 +20,12 @@ func _process(_delta):
 
 func _on_spawn():
 	var enemy = enemyTemplate.instantiate()
-	enemy.position.x = $Boss1.position.x + rng.randi_range(-50,50)
-	enemy.position.y = $Boss1.position.y + 50
+	enemy.position.x = $Boss.position.x + rng.randi_range(-50,50)
+	enemy.position.y = $Boss.position.y + 50
 	enemy.target = $Player
 	self.add_child(enemy)
+	
+	$Boss.area_entered.connect($Boss._on_boss_area_entered)
+	enemy.area_entered.connect($Player._on_enemy_area_entered)
+	$Player.area_entered.connect(enemy._on_player_area_entered)
+	
