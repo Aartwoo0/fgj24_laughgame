@@ -18,6 +18,10 @@ func _ready():
 	
 func shoot(towards):
 	direction=towards
+
+func deflect():
+	direction = direction.rotated(PI+(randf()-0.5)*PI/2)
+	$Timer.start()
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

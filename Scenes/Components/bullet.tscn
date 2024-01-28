@@ -43,3 +43,9 @@ sprite_frames = SubResource("SpriteFrames_btbnc")
 [node name="Shape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
 shape = SubResource("CircleShape2D_agorc")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="hide"]
