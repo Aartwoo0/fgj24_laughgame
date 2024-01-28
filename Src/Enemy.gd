@@ -55,7 +55,10 @@ func _process(delta):
 			Enemy.center += (self.position - Enemy.center) / Enemy.friends
 	
 	self.position += self.bounce
-	self.bounce=self.bounce/2
+	if self.mood < 1:
+		self.bounce=self.bounce/2
+	else:
+		self.bounce=self.bounce*0.9
 
 
 func _on_player_area_entered(enemy_area):
@@ -70,3 +73,8 @@ func _on_enemy_hitbox_area_entered(bullet):
 		self.bounce = bullet.direction * 10
 		if self.state < 1:
 			self.state += 500
+	if bullet is Stick:
+		var dir = self.global_position.direction_to(bullet.global_position)
+		self.bounce = bullet.velocity * dir.rotated(PI / 2) * 50
+		if self.state < 1:
+			self.state = 100
