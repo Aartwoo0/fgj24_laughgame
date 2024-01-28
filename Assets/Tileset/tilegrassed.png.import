@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t5jscl4t2sr8"
-path="res://.godot/imported/Tileset Leaves Green 32x32.png-cadf86e099f0d684ee1c15f96865fae8.ctex"
+uid="uid://cfpfqjl5fu7gc"
+path="res://.godot/imported/tilegrassed.png-785074a776a404432d411b2b4c07b96c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Assets - Basic Cubes/Trees/Tileset Leaves Green 32x32.png"
-dest_files=["res://.godot/imported/Tileset Leaves Green 32x32.png-cadf86e099f0d684ee1c15f96865fae8.ctex"]
+source_file="res://Assets/Tileset/tilegrassed.png"
+dest_files=["res://.godot/imported/tilegrassed.png-785074a776a404432d411b2b4c07b96c.ctex"]
 
 [params]
 

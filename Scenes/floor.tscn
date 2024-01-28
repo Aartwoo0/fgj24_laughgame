@@ -1,0 +1,6288 @@
+[gd_scene load_steps=5 format=3 uid="uid://bl6ujj4tyrk4u"]
+
+[ext_resource type="Texture2D" uid="uid://dv2dwbaiself7" path="res://Assets/Tileset/levy.png" id="1_36hwi"]
+[ext_resource type="Texture2D" uid="uid://c03tbntslb7vi" path="res://Assets/Tileset/kivipohja.png" id="2_7rshy"]
+[ext_resource type="Texture2D" uid="uid://dynbbkcqnvd7j" path="res://Assets/Tileset/tile cracked.png" id="3_x77p7"]
+[ext_resource type="Texture2D" uid="uid://cfpfqjl5fu7gc" path="res://Assets/Tileset/tilegrassed.png" id="4_mbvbu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Levy4" type="Sprite2D" parent="."]
+position = Vector2(693, -741)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy" type="Sprite2D" parent="."]
+position = Vector2(727, -725)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja" type="Sprite2D" parent="."]
+position = Vector2(803, -689)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy3" type="Sprite2D" parent="."]
+position = Vector2(645, -717)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja2" type="Sprite2D" parent="."]
+position = Vector2(905, -641)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja3" type="Sprite2D" parent="."]
+position = Vector2(722, -681)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked" type="Sprite2D" parent="."]
+position = Vector2(806, -641)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed" type="Sprite2D" parent="."]
+position = Vector2(623, -681)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy2" type="Sprite2D" parent="."]
+position = Vector2(883, -605)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked3" type="Sprite2D" parent="."]
+position = Vector2(725, -633)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed2" type="Sprite2D" parent="."]
+position = Vector2(809, -593)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy5" type="Sprite2D" parent="."]
+position = Vector2(550.5, -668)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed6" type="Sprite2D" parent="."]
+position = Vector2(627, -632)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja4" type="Sprite2D" parent="."]
+position = Vector2(661.5, -616)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy7" type="Sprite2D" parent="."]
+position = Vector2(502.5, -644)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed5" type="Sprite2D" parent="."]
+position = Vector2(763, -568)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja6" type="Sprite2D" parent="."]
+position = Vector2(579.5, -608)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed3" type="Sprite2D" parent="."]
+position = Vector2(480.5, -608)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed27" type="Sprite2D" parent="."]
+position = Vector2(664, -568)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy8" type="Sprite2D" parent="."]
+position = Vector2(740.5, -532)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked4" type="Sprite2D" parent="."]
+position = Vector2(582.5, -560)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed4" type="Sprite2D" parent="."]
+position = Vector2(666.5, -520)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy6" type="Sprite2D" parent="."]
+position = Vector2(979, -604)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy9" type="Sprite2D" parent="."]
+position = Vector2(1013, -588)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja5" type="Sprite2D" parent="."]
+position = Vector2(1089, -552)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy10" type="Sprite2D" parent="."]
+position = Vector2(931, -580)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja7" type="Sprite2D" parent="."]
+position = Vector2(1190, -505)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja8" type="Sprite2D" parent="."]
+position = Vector2(1008, -544)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked5" type="Sprite2D" parent="."]
+position = Vector2(1092, -504)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed7" type="Sprite2D" parent="."]
+position = Vector2(909, -544)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy11" type="Sprite2D" parent="."]
+position = Vector2(1169, -468)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked6" type="Sprite2D" parent="."]
+position = Vector2(1011, -496)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed8" type="Sprite2D" parent="."]
+position = Vector2(1095, -456)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy12" type="Sprite2D" parent="."]
+position = Vector2(836.5, -531)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed9" type="Sprite2D" parent="."]
+position = Vector2(913, -495)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja9" type="Sprite2D" parent="."]
+position = Vector2(947.5, -479)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy13" type="Sprite2D" parent="."]
+position = Vector2(788.5, -507)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed10" type="Sprite2D" parent="."]
+position = Vector2(1049, -431)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked17" type="Sprite2D" parent="."]
+position = Vector2(866, -471)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked7" type="Sprite2D" parent="."]
+position = Vector2(949.5, -431)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed11" type="Sprite2D" parent="."]
+position = Vector2(766.5, -471)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy14" type="Sprite2D" parent="."]
+position = Vector2(1026.5, -395)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked8" type="Sprite2D" parent="."]
+position = Vector2(851, -431)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed12" type="Sprite2D" parent="."]
+position = Vector2(952.5, -383)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy15" type="Sprite2D" parent="."]
+position = Vector2(407, -596)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy16" type="Sprite2D" parent="."]
+position = Vector2(441, -580)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja11" type="Sprite2D" parent="."]
+position = Vector2(517, -544)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy17" type="Sprite2D" parent="."]
+position = Vector2(359, -572)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja12" type="Sprite2D" parent="."]
+position = Vector2(619, -496)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja13" type="Sprite2D" parent="."]
+position = Vector2(436, -536)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked9" type="Sprite2D" parent="."]
+position = Vector2(520, -496)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed13" type="Sprite2D" parent="."]
+position = Vector2(337, -536)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed26" type="Sprite2D" parent="."]
+position = Vector2(439, -488)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy18" type="Sprite2D" parent="."]
+position = Vector2(597, -460)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed14" type="Sprite2D" parent="."]
+position = Vector2(523, -448)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy19" type="Sprite2D" parent="."]
+position = Vector2(264.5, -523)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed15" type="Sprite2D" parent="."]
+position = Vector2(341, -487)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja14" type="Sprite2D" parent="."]
+position = Vector2(375.5, -471)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy20" type="Sprite2D" parent="."]
+position = Vector2(216.5, -499)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed16" type="Sprite2D" parent="."]
+position = Vector2(477, -423)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja15" type="Sprite2D" parent="."]
+position = Vector2(293.5, -463)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed17" type="Sprite2D" parent="."]
+position = Vector2(194.5, -463)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja21" type="Sprite2D" parent="."]
+position = Vector2(386, -419)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy21" type="Sprite2D" parent="."]
+position = Vector2(454.5, -387)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked12" type="Sprite2D" parent="."]
+position = Vector2(296.5, -415)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed18" type="Sprite2D" parent="."]
+position = Vector2(380.5, -375)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy22" type="Sprite2D" parent="."]
+position = Vector2(693, -459)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy23" type="Sprite2D" parent="."]
+position = Vector2(727, -443)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja16" type="Sprite2D" parent="."]
+position = Vector2(803, -407)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy24" type="Sprite2D" parent="."]
+position = Vector2(645, -435)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja17" type="Sprite2D" parent="."]
+position = Vector2(904, -360)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja18" type="Sprite2D" parent="."]
+position = Vector2(722, -399)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed25" type="Sprite2D" parent="."]
+position = Vector2(814, -355)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed19" type="Sprite2D" parent="."]
+position = Vector2(623, -399)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy25" type="Sprite2D" parent="."]
+position = Vector2(883, -323)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked14" type="Sprite2D" parent="."]
+position = Vector2(725, -351)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed20" type="Sprite2D" parent="."]
+position = Vector2(809, -311)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy26" type="Sprite2D" parent="."]
+position = Vector2(550.5, -386)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed21" type="Sprite2D" parent="."]
+position = Vector2(627, -350)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja19" type="Sprite2D" parent="."]
+position = Vector2(661.5, -334)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy27" type="Sprite2D" parent="."]
+position = Vector2(502.5, -362)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed22" type="Sprite2D" parent="."]
+position = Vector2(763, -286)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja20" type="Sprite2D" parent="."]
+position = Vector2(579.5, -326)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked15" type="Sprite2D" parent="."]
+position = Vector2(663.5, -286)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed23" type="Sprite2D" parent="."]
+position = Vector2(480.5, -326)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy28" type="Sprite2D" parent="."]
+position = Vector2(740.5, -250)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked16" type="Sprite2D" parent="."]
+position = Vector2(582.5, -278)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed24" type="Sprite2D" parent="."]
+position = Vector2(666.5, -238)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy29" type="Sprite2D" parent="."]
+position = Vector2(1267, -468)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy30" type="Sprite2D" parent="."]
+position = Vector2(1301, -452)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja10" type="Sprite2D" parent="."]
+position = Vector2(1377, -416)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy31" type="Sprite2D" parent="."]
+position = Vector2(1219, -444)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja22" type="Sprite2D" parent="."]
+position = Vector2(1479, -368)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja23" type="Sprite2D" parent="."]
+position = Vector2(1296, -408)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked2" type="Sprite2D" parent="."]
+position = Vector2(1380, -368)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed28" type="Sprite2D" parent="."]
+position = Vector2(1197, -408)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy32" type="Sprite2D" parent="."]
+position = Vector2(1457, -332)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked10" type="Sprite2D" parent="."]
+position = Vector2(1299, -360)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed29" type="Sprite2D" parent="."]
+position = Vector2(1383, -320)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy33" type="Sprite2D" parent="."]
+position = Vector2(1124.5, -395)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed30" type="Sprite2D" parent="."]
+position = Vector2(1201, -359)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja24" type="Sprite2D" parent="."]
+position = Vector2(1235.5, -343)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy34" type="Sprite2D" parent="."]
+position = Vector2(1076.5, -371)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed31" type="Sprite2D" parent="."]
+position = Vector2(1337, -295)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja25" type="Sprite2D" parent="."]
+position = Vector2(1153.5, -335)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed32" type="Sprite2D" parent="."]
+position = Vector2(1054.5, -335)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed33" type="Sprite2D" parent="."]
+position = Vector2(1238, -295)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy35" type="Sprite2D" parent="."]
+position = Vector2(1314.5, -259)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked11" type="Sprite2D" parent="."]
+position = Vector2(1156.5, -287)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed34" type="Sprite2D" parent="."]
+position = Vector2(1240.5, -247)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy36" type="Sprite2D" parent="."]
+position = Vector2(1553, -331)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy37" type="Sprite2D" parent="."]
+position = Vector2(1587, -315)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja26" type="Sprite2D" parent="."]
+position = Vector2(1663, -279)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy38" type="Sprite2D" parent="."]
+position = Vector2(1505, -307)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja27" type="Sprite2D" parent="."]
+position = Vector2(1764, -232)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja28" type="Sprite2D" parent="."]
+position = Vector2(1582, -271)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked13" type="Sprite2D" parent="."]
+position = Vector2(1666, -231)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed35" type="Sprite2D" parent="."]
+position = Vector2(1483, -271)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy39" type="Sprite2D" parent="."]
+position = Vector2(1743, -195)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked18" type="Sprite2D" parent="."]
+position = Vector2(1585, -223)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed36" type="Sprite2D" parent="."]
+position = Vector2(1669, -183)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy40" type="Sprite2D" parent="."]
+position = Vector2(1410.5, -258)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed37" type="Sprite2D" parent="."]
+position = Vector2(1487, -222)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja29" type="Sprite2D" parent="."]
+position = Vector2(1521.5, -206)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy41" type="Sprite2D" parent="."]
+position = Vector2(1362.5, -234)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed38" type="Sprite2D" parent="."]
+position = Vector2(1623, -158)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked19" type="Sprite2D" parent="."]
+position = Vector2(1440, -198)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked20" type="Sprite2D" parent="."]
+position = Vector2(1523.5, -158)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed39" type="Sprite2D" parent="."]
+position = Vector2(1340.5, -198)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy42" type="Sprite2D" parent="."]
+position = Vector2(1600.5, -122)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked21" type="Sprite2D" parent="."]
+position = Vector2(1425, -158)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed40" type="Sprite2D" parent="."]
+position = Vector2(1526.5, -110)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy43" type="Sprite2D" parent="."]
+position = Vector2(981, -323)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy44" type="Sprite2D" parent="."]
+position = Vector2(1015, -307)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja30" type="Sprite2D" parent="."]
+position = Vector2(1091, -271)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy45" type="Sprite2D" parent="."]
+position = Vector2(933, -299)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja31" type="Sprite2D" parent="."]
+position = Vector2(1193, -223)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja32" type="Sprite2D" parent="."]
+position = Vector2(1010, -263)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked22" type="Sprite2D" parent="."]
+position = Vector2(1094, -223)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed41" type="Sprite2D" parent="."]
+position = Vector2(911, -263)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed42" type="Sprite2D" parent="."]
+position = Vector2(1013, -215)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy46" type="Sprite2D" parent="."]
+position = Vector2(1171, -187)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed43" type="Sprite2D" parent="."]
+position = Vector2(1097, -175)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy47" type="Sprite2D" parent="."]
+position = Vector2(838.5, -250)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed44" type="Sprite2D" parent="."]
+position = Vector2(915, -214)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja33" type="Sprite2D" parent="."]
+position = Vector2(949.5, -198)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy48" type="Sprite2D" parent="."]
+position = Vector2(790.5, -226)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed45" type="Sprite2D" parent="."]
+position = Vector2(1051, -150)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja34" type="Sprite2D" parent="."]
+position = Vector2(867.5, -190)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed46" type="Sprite2D" parent="."]
+position = Vector2(768.5, -190)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja35" type="Sprite2D" parent="."]
+position = Vector2(960, -146)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy49" type="Sprite2D" parent="."]
+position = Vector2(1028.5, -114)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked23" type="Sprite2D" parent="."]
+position = Vector2(870.5, -142)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed47" type="Sprite2D" parent="."]
+position = Vector2(954.5, -102)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy50" type="Sprite2D" parent="."]
+position = Vector2(1267, -186)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy51" type="Sprite2D" parent="."]
+position = Vector2(1301, -170)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja36" type="Sprite2D" parent="."]
+position = Vector2(1377, -134)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy52" type="Sprite2D" parent="."]
+position = Vector2(1219, -162)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja37" type="Sprite2D" parent="."]
+position = Vector2(1478, -87)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja38" type="Sprite2D" parent="."]
+position = Vector2(1296, -126)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed48" type="Sprite2D" parent="."]
+position = Vector2(1388, -82)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed49" type="Sprite2D" parent="."]
+position = Vector2(1197, -126)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy53" type="Sprite2D" parent="."]
+position = Vector2(1457, -50)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked24" type="Sprite2D" parent="."]
+position = Vector2(1299, -78)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed50" type="Sprite2D" parent="."]
+position = Vector2(1383, -38)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy54" type="Sprite2D" parent="."]
+position = Vector2(1124.5, -113)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed51" type="Sprite2D" parent="."]
+position = Vector2(1201, -77)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja39" type="Sprite2D" parent="."]
+position = Vector2(1235.5, -61)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy55" type="Sprite2D" parent="."]
+position = Vector2(1076.5, -89)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed52" type="Sprite2D" parent="."]
+position = Vector2(1337, -13)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja40" type="Sprite2D" parent="."]
+position = Vector2(1153.5, -53)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked25" type="Sprite2D" parent="."]
+position = Vector2(1237.5, -13)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed53" type="Sprite2D" parent="."]
+position = Vector2(1054.5, -53)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy56" type="Sprite2D" parent="."]
+position = Vector2(1314.5, 23)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked26" type="Sprite2D" parent="."]
+position = Vector2(1156.5, -5)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed54" type="Sprite2D" parent="."]
+position = Vector2(1240.5, 35)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy57" type="Sprite2D" parent="."]
+position = Vector2(1840, -195)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy58" type="Sprite2D" parent="."]
+position = Vector2(1874, -179)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja41" type="Sprite2D" parent="."]
+position = Vector2(1950, -143)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy59" type="Sprite2D" parent="."]
+position = Vector2(1792, -171)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja42" type="Sprite2D" parent="."]
+position = Vector2(2052, -95)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja43" type="Sprite2D" parent="."]
+position = Vector2(1869, -135)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked27" type="Sprite2D" parent="."]
+position = Vector2(1953, -95)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed55" type="Sprite2D" parent="."]
+position = Vector2(1770, -135)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy60" type="Sprite2D" parent="."]
+position = Vector2(2030, -59)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked28" type="Sprite2D" parent="."]
+position = Vector2(1872, -87)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed56" type="Sprite2D" parent="."]
+position = Vector2(1956, -47)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy61" type="Sprite2D" parent="."]
+position = Vector2(1697.5, -122)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed57" type="Sprite2D" parent="."]
+position = Vector2(1774, -86)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja44" type="Sprite2D" parent="."]
+position = Vector2(1808.5, -70)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy62" type="Sprite2D" parent="."]
+position = Vector2(1649.5, -98)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed58" type="Sprite2D" parent="."]
+position = Vector2(1910, -22)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja45" type="Sprite2D" parent="."]
+position = Vector2(1726.5, -62)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed59" type="Sprite2D" parent="."]
+position = Vector2(1627.5, -62)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed60" type="Sprite2D" parent="."]
+position = Vector2(1811, -22)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy63" type="Sprite2D" parent="."]
+position = Vector2(1887.5, 14)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked29" type="Sprite2D" parent="."]
+position = Vector2(1729.5, -14)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed61" type="Sprite2D" parent="."]
+position = Vector2(1813.5, 26)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy64" type="Sprite2D" parent="."]
+position = Vector2(2126, -58)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy65" type="Sprite2D" parent="."]
+position = Vector2(2160, -42)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja46" type="Sprite2D" parent="."]
+position = Vector2(2236, -6)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy66" type="Sprite2D" parent="."]
+position = Vector2(2078, -34)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja47" type="Sprite2D" parent="."]
+position = Vector2(2337, 41)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja48" type="Sprite2D" parent="."]
+position = Vector2(2155, 2)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked30" type="Sprite2D" parent="."]
+position = Vector2(2239, 42)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed62" type="Sprite2D" parent="."]
+position = Vector2(2056, 2)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy67" type="Sprite2D" parent="."]
+position = Vector2(2316, 78)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked31" type="Sprite2D" parent="."]
+position = Vector2(2158, 50)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed63" type="Sprite2D" parent="."]
+position = Vector2(2242, 90)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy68" type="Sprite2D" parent="."]
+position = Vector2(1983.5, 15)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed64" type="Sprite2D" parent="."]
+position = Vector2(2060, 51)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja49" type="Sprite2D" parent="."]
+position = Vector2(2094.5, 67)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy69" type="Sprite2D" parent="."]
+position = Vector2(1935.5, 39)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed65" type="Sprite2D" parent="."]
+position = Vector2(2196, 115)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked32" type="Sprite2D" parent="."]
+position = Vector2(2013, 75)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked33" type="Sprite2D" parent="."]
+position = Vector2(2096.5, 115)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed66" type="Sprite2D" parent="."]
+position = Vector2(1913.5, 75)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy70" type="Sprite2D" parent="."]
+position = Vector2(2173.5, 151)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked34" type="Sprite2D" parent="."]
+position = Vector2(1998, 115)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed67" type="Sprite2D" parent="."]
+position = Vector2(2099.5, 163)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy71" type="Sprite2D" parent="."]
+position = Vector2(1554, -50)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy72" type="Sprite2D" parent="."]
+position = Vector2(1588, -34)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja50" type="Sprite2D" parent="."]
+position = Vector2(1664, 2)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy73" type="Sprite2D" parent="."]
+position = Vector2(1506, -26)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja51" type="Sprite2D" parent="."]
+position = Vector2(1766, 50)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja52" type="Sprite2D" parent="."]
+position = Vector2(1583, 10)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked35" type="Sprite2D" parent="."]
+position = Vector2(1667, 50)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed68" type="Sprite2D" parent="."]
+position = Vector2(1484, 10)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed69" type="Sprite2D" parent="."]
+position = Vector2(1586, 58)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy74" type="Sprite2D" parent="."]
+position = Vector2(1744, 86)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed70" type="Sprite2D" parent="."]
+position = Vector2(1670, 98)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy75" type="Sprite2D" parent="."]
+position = Vector2(1411.5, 23)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed71" type="Sprite2D" parent="."]
+position = Vector2(1488, 59)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja53" type="Sprite2D" parent="."]
+position = Vector2(1522.5, 75)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy76" type="Sprite2D" parent="."]
+position = Vector2(1363.5, 47)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed72" type="Sprite2D" parent="."]
+position = Vector2(1624, 123)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja54" type="Sprite2D" parent="."]
+position = Vector2(1440.5, 83)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed73" type="Sprite2D" parent="."]
+position = Vector2(1341.5, 83)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja55" type="Sprite2D" parent="."]
+position = Vector2(1533, 127)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy77" type="Sprite2D" parent="."]
+position = Vector2(1601.5, 159)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked36" type="Sprite2D" parent="."]
+position = Vector2(1443.5, 131)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed74" type="Sprite2D" parent="."]
+position = Vector2(1527.5, 171)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy78" type="Sprite2D" parent="."]
+position = Vector2(1840, 87)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy79" type="Sprite2D" parent="."]
+position = Vector2(1874, 103)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja56" type="Sprite2D" parent="."]
+position = Vector2(1950, 139)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy80" type="Sprite2D" parent="."]
+position = Vector2(1792, 111)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja57" type="Sprite2D" parent="."]
+position = Vector2(2051, 186)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja58" type="Sprite2D" parent="."]
+position = Vector2(1869, 147)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed75" type="Sprite2D" parent="."]
+position = Vector2(1961, 191)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed76" type="Sprite2D" parent="."]
+position = Vector2(1770, 147)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy81" type="Sprite2D" parent="."]
+position = Vector2(2030, 223)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked37" type="Sprite2D" parent="."]
+position = Vector2(1872, 195)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed77" type="Sprite2D" parent="."]
+position = Vector2(1956, 235)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy82" type="Sprite2D" parent="."]
+position = Vector2(1697.5, 160)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed78" type="Sprite2D" parent="."]
+position = Vector2(1774, 196)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja59" type="Sprite2D" parent="."]
+position = Vector2(1808.5, 212)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy83" type="Sprite2D" parent="."]
+position = Vector2(1649.5, 184)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed79" type="Sprite2D" parent="."]
+position = Vector2(1910, 260)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja60" type="Sprite2D" parent="."]
+position = Vector2(1726.5, 220)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked38" type="Sprite2D" parent="."]
+position = Vector2(1810.5, 260)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed80" type="Sprite2D" parent="."]
+position = Vector2(1627.5, 220)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy84" type="Sprite2D" parent="."]
+position = Vector2(1887.5, 296)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked39" type="Sprite2D" parent="."]
+position = Vector2(1729.5, 268)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed81" type="Sprite2D" parent="."]
+position = Vector2(1813.5, 308)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy85" type="Sprite2D" parent="."]
+position = Vector2(2414, 78)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy86" type="Sprite2D" parent="."]
+position = Vector2(2448, 94)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja61" type="Sprite2D" parent="."]
+position = Vector2(2524, 130)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy87" type="Sprite2D" parent="."]
+position = Vector2(2366, 102)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja62" type="Sprite2D" parent="."]
+position = Vector2(2626, 178)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja63" type="Sprite2D" parent="."]
+position = Vector2(2443, 138)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked40" type="Sprite2D" parent="."]
+position = Vector2(2527, 178)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed82" type="Sprite2D" parent="."]
+position = Vector2(2344, 138)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy88" type="Sprite2D" parent="."]
+position = Vector2(2604, 214)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked41" type="Sprite2D" parent="."]
+position = Vector2(2446, 186)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed83" type="Sprite2D" parent="."]
+position = Vector2(2530, 226)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy89" type="Sprite2D" parent="."]
+position = Vector2(2271.5, 151)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed84" type="Sprite2D" parent="."]
+position = Vector2(2348, 187)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja64" type="Sprite2D" parent="."]
+position = Vector2(2382.5, 203)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy90" type="Sprite2D" parent="."]
+position = Vector2(2223.5, 175)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed85" type="Sprite2D" parent="."]
+position = Vector2(2484, 251)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja65" type="Sprite2D" parent="."]
+position = Vector2(2300.5, 211)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed86" type="Sprite2D" parent="."]
+position = Vector2(2201.5, 211)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed87" type="Sprite2D" parent="."]
+position = Vector2(2385, 251)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy91" type="Sprite2D" parent="."]
+position = Vector2(2461.5, 287)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked42" type="Sprite2D" parent="."]
+position = Vector2(2303.5, 259)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed88" type="Sprite2D" parent="."]
+position = Vector2(2387.5, 299)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy92" type="Sprite2D" parent="."]
+position = Vector2(2700, 215)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy93" type="Sprite2D" parent="."]
+position = Vector2(2734, 231)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja66" type="Sprite2D" parent="."]
+position = Vector2(2810, 267)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy94" type="Sprite2D" parent="."]
+position = Vector2(2652, 239)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja67" type="Sprite2D" parent="."]
+position = Vector2(2911, 314)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja68" type="Sprite2D" parent="."]
+position = Vector2(2729, 275)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked43" type="Sprite2D" parent="."]
+position = Vector2(2813, 315)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed89" type="Sprite2D" parent="."]
+position = Vector2(2630, 275)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy95" type="Sprite2D" parent="."]
+position = Vector2(2890, 351)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked44" type="Sprite2D" parent="."]
+position = Vector2(2732, 323)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed90" type="Sprite2D" parent="."]
+position = Vector2(2816, 363)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy96" type="Sprite2D" parent="."]
+position = Vector2(2557.5, 288)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed91" type="Sprite2D" parent="."]
+position = Vector2(2634, 324)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja69" type="Sprite2D" parent="."]
+position = Vector2(2668.5, 340)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy97" type="Sprite2D" parent="."]
+position = Vector2(2509.5, 312)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed92" type="Sprite2D" parent="."]
+position = Vector2(2770, 388)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked45" type="Sprite2D" parent="."]
+position = Vector2(2587, 348)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked46" type="Sprite2D" parent="."]
+position = Vector2(2670.5, 388)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed93" type="Sprite2D" parent="."]
+position = Vector2(2487.5, 348)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy98" type="Sprite2D" parent="."]
+position = Vector2(2747.5, 424)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked47" type="Sprite2D" parent="."]
+position = Vector2(2572, 388)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed94" type="Sprite2D" parent="."]
+position = Vector2(2673.5, 436)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy99" type="Sprite2D" parent="."]
+position = Vector2(2128, 223)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy100" type="Sprite2D" parent="."]
+position = Vector2(2162, 239)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja70" type="Sprite2D" parent="."]
+position = Vector2(2238, 275)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy101" type="Sprite2D" parent="."]
+position = Vector2(2080, 247)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja71" type="Sprite2D" parent="."]
+position = Vector2(2340, 323)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja72" type="Sprite2D" parent="."]
+position = Vector2(2157, 283)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked48" type="Sprite2D" parent="."]
+position = Vector2(2241, 323)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed95" type="Sprite2D" parent="."]
+position = Vector2(2058, 283)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed96" type="Sprite2D" parent="."]
+position = Vector2(2160, 331)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy102" type="Sprite2D" parent="."]
+position = Vector2(2318, 359)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed97" type="Sprite2D" parent="."]
+position = Vector2(2244, 371)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy103" type="Sprite2D" parent="."]
+position = Vector2(1985.5, 296)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed98" type="Sprite2D" parent="."]
+position = Vector2(2062, 332)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja73" type="Sprite2D" parent="."]
+position = Vector2(2096.5, 348)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy104" type="Sprite2D" parent="."]
+position = Vector2(1937.5, 320)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed99" type="Sprite2D" parent="."]
+position = Vector2(2198, 396)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja74" type="Sprite2D" parent="."]
+position = Vector2(2014.5, 356)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed100" type="Sprite2D" parent="."]
+position = Vector2(1915.5, 356)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja75" type="Sprite2D" parent="."]
+position = Vector2(2107, 400)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy105" type="Sprite2D" parent="."]
+position = Vector2(2175.5, 432)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked49" type="Sprite2D" parent="."]
+position = Vector2(2017.5, 404)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed101" type="Sprite2D" parent="."]
+position = Vector2(2101.5, 444)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy106" type="Sprite2D" parent="."]
+position = Vector2(2414, 360)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy107" type="Sprite2D" parent="."]
+position = Vector2(2448, 376)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja76" type="Sprite2D" parent="."]
+position = Vector2(2524, 412)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy108" type="Sprite2D" parent="."]
+position = Vector2(2366, 384)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja77" type="Sprite2D" parent="."]
+position = Vector2(2625, 459)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja78" type="Sprite2D" parent="."]
+position = Vector2(2443, 420)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed102" type="Sprite2D" parent="."]
+position = Vector2(2535, 464)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed103" type="Sprite2D" parent="."]
+position = Vector2(2344, 420)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy109" type="Sprite2D" parent="."]
+position = Vector2(2604, 496)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked50" type="Sprite2D" parent="."]
+position = Vector2(2446, 468)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed104" type="Sprite2D" parent="."]
+position = Vector2(2530, 508)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy110" type="Sprite2D" parent="."]
+position = Vector2(2271.5, 433)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed105" type="Sprite2D" parent="."]
+position = Vector2(2348, 469)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja79" type="Sprite2D" parent="."]
+position = Vector2(2382.5, 485)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy111" type="Sprite2D" parent="."]
+position = Vector2(2223.5, 457)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed106" type="Sprite2D" parent="."]
+position = Vector2(2484, 533)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja80" type="Sprite2D" parent="."]
+position = Vector2(2300.5, 493)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked51" type="Sprite2D" parent="."]
+position = Vector2(2384.5, 533)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed107" type="Sprite2D" parent="."]
+position = Vector2(2201.5, 493)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy112" type="Sprite2D" parent="."]
+position = Vector2(2461.5, 569)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked52" type="Sprite2D" parent="."]
+position = Vector2(2303.5, 541)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed108" type="Sprite2D" parent="."]
+position = Vector2(2387.5, 581)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy113" type="Sprite2D" parent="."]
+position = Vector2(122, -450)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy114" type="Sprite2D" parent="."]
+position = Vector2(156, -434)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja81" type="Sprite2D" parent="."]
+position = Vector2(232, -398)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy115" type="Sprite2D" parent="."]
+position = Vector2(74, -426)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja82" type="Sprite2D" parent="."]
+position = Vector2(334, -350)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja83" type="Sprite2D" parent="."]
+position = Vector2(151, -390)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked53" type="Sprite2D" parent="."]
+position = Vector2(235, -350)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed109" type="Sprite2D" parent="."]
+position = Vector2(52, -390)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy116" type="Sprite2D" parent="."]
+position = Vector2(312, -314)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked54" type="Sprite2D" parent="."]
+position = Vector2(154, -342)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed110" type="Sprite2D" parent="."]
+position = Vector2(238, -302)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy117" type="Sprite2D" parent="."]
+position = Vector2(-20.5, -377)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed111" type="Sprite2D" parent="."]
+position = Vector2(56, -341)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja84" type="Sprite2D" parent="."]
+position = Vector2(90.5, -325)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy118" type="Sprite2D" parent="."]
+position = Vector2(-68.5, -353)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed112" type="Sprite2D" parent="."]
+position = Vector2(192, -277)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja85" type="Sprite2D" parent="."]
+position = Vector2(8.5, -317)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed113" type="Sprite2D" parent="."]
+position = Vector2(-90.5, -317)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed114" type="Sprite2D" parent="."]
+position = Vector2(93, -277)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy119" type="Sprite2D" parent="."]
+position = Vector2(169.5, -241)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked55" type="Sprite2D" parent="."]
+position = Vector2(11.5, -269)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed115" type="Sprite2D" parent="."]
+position = Vector2(95.5, -229)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy120" type="Sprite2D" parent="."]
+position = Vector2(408, -313)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy121" type="Sprite2D" parent="."]
+position = Vector2(442, -297)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja86" type="Sprite2D" parent="."]
+position = Vector2(518, -261)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy122" type="Sprite2D" parent="."]
+position = Vector2(360, -289)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja87" type="Sprite2D" parent="."]
+position = Vector2(619, -214)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja88" type="Sprite2D" parent="."]
+position = Vector2(437, -253)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked56" type="Sprite2D" parent="."]
+position = Vector2(521, -213)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed116" type="Sprite2D" parent="."]
+position = Vector2(338, -253)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy123" type="Sprite2D" parent="."]
+position = Vector2(598, -177)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked57" type="Sprite2D" parent="."]
+position = Vector2(440, -205)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed117" type="Sprite2D" parent="."]
+position = Vector2(524, -165)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy124" type="Sprite2D" parent="."]
+position = Vector2(265.5, -240)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed118" type="Sprite2D" parent="."]
+position = Vector2(342, -204)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja89" type="Sprite2D" parent="."]
+position = Vector2(376.5, -188)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy125" type="Sprite2D" parent="."]
+position = Vector2(217.5, -216)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed119" type="Sprite2D" parent="."]
+position = Vector2(478, -140)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked58" type="Sprite2D" parent="."]
+position = Vector2(295, -180)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked59" type="Sprite2D" parent="."]
+position = Vector2(378.5, -140)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed120" type="Sprite2D" parent="."]
+position = Vector2(195.5, -180)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy126" type="Sprite2D" parent="."]
+position = Vector2(455.5, -104)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked60" type="Sprite2D" parent="."]
+position = Vector2(280, -140)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed121" type="Sprite2D" parent="."]
+position = Vector2(381.5, -92)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy127" type="Sprite2D" parent="."]
+position = Vector2(-164, -305)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy128" type="Sprite2D" parent="."]
+position = Vector2(-130, -289)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja90" type="Sprite2D" parent="."]
+position = Vector2(-54, -253)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy129" type="Sprite2D" parent="."]
+position = Vector2(-212, -281)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja91" type="Sprite2D" parent="."]
+position = Vector2(48, -205)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja92" type="Sprite2D" parent="."]
+position = Vector2(-135, -245)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked61" type="Sprite2D" parent="."]
+position = Vector2(-51, -205)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed122" type="Sprite2D" parent="."]
+position = Vector2(-234, -245)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed123" type="Sprite2D" parent="."]
+position = Vector2(-132, -197)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy130" type="Sprite2D" parent="."]
+position = Vector2(26, -169)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed124" type="Sprite2D" parent="."]
+position = Vector2(-48, -157)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy131" type="Sprite2D" parent="."]
+position = Vector2(-306.5, -232)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed125" type="Sprite2D" parent="."]
+position = Vector2(-230, -196)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja93" type="Sprite2D" parent="."]
+position = Vector2(-195.5, -180)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy132" type="Sprite2D" parent="."]
+position = Vector2(-354.5, -208)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed126" type="Sprite2D" parent="."]
+position = Vector2(-94, -132)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja94" type="Sprite2D" parent="."]
+position = Vector2(-277.5, -172)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed127" type="Sprite2D" parent="."]
+position = Vector2(-376.5, -172)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja95" type="Sprite2D" parent="."]
+position = Vector2(-185, -128)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy133" type="Sprite2D" parent="."]
+position = Vector2(-116.5, -96)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked62" type="Sprite2D" parent="."]
+position = Vector2(-274.5, -124)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed128" type="Sprite2D" parent="."]
+position = Vector2(-190.5, -84)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy134" type="Sprite2D" parent="."]
+position = Vector2(122, -168)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy135" type="Sprite2D" parent="."]
+position = Vector2(156, -152)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja96" type="Sprite2D" parent="."]
+position = Vector2(232, -116)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy136" type="Sprite2D" parent="."]
+position = Vector2(74, -144)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja97" type="Sprite2D" parent="."]
+position = Vector2(333, -69)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja98" type="Sprite2D" parent="."]
+position = Vector2(151, -108)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed129" type="Sprite2D" parent="."]
+position = Vector2(243, -64)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed130" type="Sprite2D" parent="."]
+position = Vector2(52, -108)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy137" type="Sprite2D" parent="."]
+position = Vector2(312, -32)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked63" type="Sprite2D" parent="."]
+position = Vector2(154, -60)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed131" type="Sprite2D" parent="."]
+position = Vector2(238, -20)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy138" type="Sprite2D" parent="."]
+position = Vector2(-20.5, -95)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed132" type="Sprite2D" parent="."]
+position = Vector2(56, -59)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja99" type="Sprite2D" parent="."]
+position = Vector2(90.5, -43)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy139" type="Sprite2D" parent="."]
+position = Vector2(-68.5, -71)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed133" type="Sprite2D" parent="."]
+position = Vector2(192, 5)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja100" type="Sprite2D" parent="."]
+position = Vector2(8.5, -35)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked64" type="Sprite2D" parent="."]
+position = Vector2(92.5, 5)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed134" type="Sprite2D" parent="."]
+position = Vector2(-90.5, -35)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy140" type="Sprite2D" parent="."]
+position = Vector2(169.5, 41)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked65" type="Sprite2D" parent="."]
+position = Vector2(11.5, 13)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed135" type="Sprite2D" parent="."]
+position = Vector2(95.5, 53)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy141" type="Sprite2D" parent="."]
+position = Vector2(696, -177)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy142" type="Sprite2D" parent="."]
+position = Vector2(730, -161)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja101" type="Sprite2D" parent="."]
+position = Vector2(806, -125)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy143" type="Sprite2D" parent="."]
+position = Vector2(648, -153)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja102" type="Sprite2D" parent="."]
+position = Vector2(908, -77)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja103" type="Sprite2D" parent="."]
+position = Vector2(725, -117)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked66" type="Sprite2D" parent="."]
+position = Vector2(809, -77)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed136" type="Sprite2D" parent="."]
+position = Vector2(626, -117)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy144" type="Sprite2D" parent="."]
+position = Vector2(886, -41)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked67" type="Sprite2D" parent="."]
+position = Vector2(728, -69)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed137" type="Sprite2D" parent="."]
+position = Vector2(812, -29)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy145" type="Sprite2D" parent="."]
+position = Vector2(553.5, -104)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed138" type="Sprite2D" parent="."]
+position = Vector2(630, -68)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja104" type="Sprite2D" parent="."]
+position = Vector2(664.5, -52)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy146" type="Sprite2D" parent="."]
+position = Vector2(505.5, -80)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed139" type="Sprite2D" parent="."]
+position = Vector2(766, -4)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja105" type="Sprite2D" parent="."]
+position = Vector2(582.5, -44)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed140" type="Sprite2D" parent="."]
+position = Vector2(483.5, -44)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed141" type="Sprite2D" parent="."]
+position = Vector2(667, -4)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy147" type="Sprite2D" parent="."]
+position = Vector2(743.5, 32)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked68" type="Sprite2D" parent="."]
+position = Vector2(585.5, 4)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed142" type="Sprite2D" parent="."]
+position = Vector2(669.5, 44)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy148" type="Sprite2D" parent="."]
+position = Vector2(982, -40)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy149" type="Sprite2D" parent="."]
+position = Vector2(1016, -24)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja106" type="Sprite2D" parent="."]
+position = Vector2(1092, 12)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy150" type="Sprite2D" parent="."]
+position = Vector2(934, -16)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja107" type="Sprite2D" parent="."]
+position = Vector2(1193, 59)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja108" type="Sprite2D" parent="."]
+position = Vector2(1011, 20)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked69" type="Sprite2D" parent="."]
+position = Vector2(1095, 60)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed143" type="Sprite2D" parent="."]
+position = Vector2(912, 20)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy151" type="Sprite2D" parent="."]
+position = Vector2(1172, 96)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked70" type="Sprite2D" parent="."]
+position = Vector2(1014, 68)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed144" type="Sprite2D" parent="."]
+position = Vector2(1098, 108)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy152" type="Sprite2D" parent="."]
+position = Vector2(839.5, 33)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed145" type="Sprite2D" parent="."]
+position = Vector2(916, 69)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja109" type="Sprite2D" parent="."]
+position = Vector2(950.5, 85)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy153" type="Sprite2D" parent="."]
+position = Vector2(791.5, 57)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed146" type="Sprite2D" parent="."]
+position = Vector2(1052, 133)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked71" type="Sprite2D" parent="."]
+position = Vector2(869, 93)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked72" type="Sprite2D" parent="."]
+position = Vector2(952.5, 133)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed147" type="Sprite2D" parent="."]
+position = Vector2(769.5, 93)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy154" type="Sprite2D" parent="."]
+position = Vector2(1029.5, 169)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked73" type="Sprite2D" parent="."]
+position = Vector2(854, 133)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed148" type="Sprite2D" parent="."]
+position = Vector2(955.5, 181)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy155" type="Sprite2D" parent="."]
+position = Vector2(410, -32)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy156" type="Sprite2D" parent="."]
+position = Vector2(444, -16)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja110" type="Sprite2D" parent="."]
+position = Vector2(520, 20)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy157" type="Sprite2D" parent="."]
+position = Vector2(362, -8)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja111" type="Sprite2D" parent="."]
+position = Vector2(622, 68)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja112" type="Sprite2D" parent="."]
+position = Vector2(439, 28)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked74" type="Sprite2D" parent="."]
+position = Vector2(523, 68)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed149" type="Sprite2D" parent="."]
+position = Vector2(340, 28)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed150" type="Sprite2D" parent="."]
+position = Vector2(442, 76)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy158" type="Sprite2D" parent="."]
+position = Vector2(600, 104)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed151" type="Sprite2D" parent="."]
+position = Vector2(526, 116)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy159" type="Sprite2D" parent="."]
+position = Vector2(267.5, 41)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed152" type="Sprite2D" parent="."]
+position = Vector2(344, 77)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja113" type="Sprite2D" parent="."]
+position = Vector2(378.5, 93)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy160" type="Sprite2D" parent="."]
+position = Vector2(219.5, 65)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed153" type="Sprite2D" parent="."]
+position = Vector2(480, 141)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja114" type="Sprite2D" parent="."]
+position = Vector2(296.5, 101)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed154" type="Sprite2D" parent="."]
+position = Vector2(197.5, 101)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja115" type="Sprite2D" parent="."]
+position = Vector2(389, 145)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy161" type="Sprite2D" parent="."]
+position = Vector2(457.5, 177)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked75" type="Sprite2D" parent="."]
+position = Vector2(299.5, 149)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed155" type="Sprite2D" parent="."]
+position = Vector2(383.5, 189)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy162" type="Sprite2D" parent="."]
+position = Vector2(696, 105)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy163" type="Sprite2D" parent="."]
+position = Vector2(730, 121)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja116" type="Sprite2D" parent="."]
+position = Vector2(806, 157)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy164" type="Sprite2D" parent="."]
+position = Vector2(648, 129)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja117" type="Sprite2D" parent="."]
+position = Vector2(907, 204)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja118" type="Sprite2D" parent="."]
+position = Vector2(725, 165)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed156" type="Sprite2D" parent="."]
+position = Vector2(817, 209)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed157" type="Sprite2D" parent="."]
+position = Vector2(626, 165)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy165" type="Sprite2D" parent="."]
+position = Vector2(886, 241)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked76" type="Sprite2D" parent="."]
+position = Vector2(728, 213)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed158" type="Sprite2D" parent="."]
+position = Vector2(812, 253)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy166" type="Sprite2D" parent="."]
+position = Vector2(553.5, 178)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed159" type="Sprite2D" parent="."]
+position = Vector2(630, 214)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja119" type="Sprite2D" parent="."]
+position = Vector2(664.5, 230)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy167" type="Sprite2D" parent="."]
+position = Vector2(505.5, 202)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed160" type="Sprite2D" parent="."]
+position = Vector2(766, 278)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja120" type="Sprite2D" parent="."]
+position = Vector2(582.5, 238)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked77" type="Sprite2D" parent="."]
+position = Vector2(666.5, 278)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed161" type="Sprite2D" parent="."]
+position = Vector2(483.5, 238)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy168" type="Sprite2D" parent="."]
+position = Vector2(743.5, 314)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked78" type="Sprite2D" parent="."]
+position = Vector2(585.5, 286)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed162" type="Sprite2D" parent="."]
+position = Vector2(669.5, 326)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy169" type="Sprite2D" parent="."]
+position = Vector2(1269, 96)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy170" type="Sprite2D" parent="."]
+position = Vector2(1303, 112)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja121" type="Sprite2D" parent="."]
+position = Vector2(1379, 148)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy171" type="Sprite2D" parent="."]
+position = Vector2(1221, 120)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja122" type="Sprite2D" parent="."]
+position = Vector2(1481, 196)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja123" type="Sprite2D" parent="."]
+position = Vector2(1298, 156)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked79" type="Sprite2D" parent="."]
+position = Vector2(1382, 196)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed163" type="Sprite2D" parent="."]
+position = Vector2(1199, 156)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy172" type="Sprite2D" parent="."]
+position = Vector2(1459, 232)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked80" type="Sprite2D" parent="."]
+position = Vector2(1301, 204)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed164" type="Sprite2D" parent="."]
+position = Vector2(1385, 244)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy173" type="Sprite2D" parent="."]
+position = Vector2(1126.5, 169)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed165" type="Sprite2D" parent="."]
+position = Vector2(1203, 205)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja124" type="Sprite2D" parent="."]
+position = Vector2(1237.5, 221)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy174" type="Sprite2D" parent="."]
+position = Vector2(1078.5, 193)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed166" type="Sprite2D" parent="."]
+position = Vector2(1339, 269)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja125" type="Sprite2D" parent="."]
+position = Vector2(1155.5, 229)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed167" type="Sprite2D" parent="."]
+position = Vector2(1056.5, 229)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed168" type="Sprite2D" parent="."]
+position = Vector2(1240, 269)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy175" type="Sprite2D" parent="."]
+position = Vector2(1316.5, 305)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked81" type="Sprite2D" parent="."]
+position = Vector2(1158.5, 277)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed169" type="Sprite2D" parent="."]
+position = Vector2(1242.5, 317)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy176" type="Sprite2D" parent="."]
+position = Vector2(1555, 233)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy177" type="Sprite2D" parent="."]
+position = Vector2(1589, 249)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja126" type="Sprite2D" parent="."]
+position = Vector2(1665, 285)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy178" type="Sprite2D" parent="."]
+position = Vector2(1507, 257)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja127" type="Sprite2D" parent="."]
+position = Vector2(1766, 332)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja128" type="Sprite2D" parent="."]
+position = Vector2(1584, 293)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked82" type="Sprite2D" parent="."]
+position = Vector2(1668, 333)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed170" type="Sprite2D" parent="."]
+position = Vector2(1485, 293)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy179" type="Sprite2D" parent="."]
+position = Vector2(1745, 369)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked83" type="Sprite2D" parent="."]
+position = Vector2(1587, 341)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed171" type="Sprite2D" parent="."]
+position = Vector2(1671, 381)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy180" type="Sprite2D" parent="."]
+position = Vector2(1412.5, 306)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed172" type="Sprite2D" parent="."]
+position = Vector2(1489, 342)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja129" type="Sprite2D" parent="."]
+position = Vector2(1523.5, 358)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy181" type="Sprite2D" parent="."]
+position = Vector2(1364.5, 330)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed173" type="Sprite2D" parent="."]
+position = Vector2(1625, 406)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked84" type="Sprite2D" parent="."]
+position = Vector2(1442, 366)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked85" type="Sprite2D" parent="."]
+position = Vector2(1525.5, 406)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed174" type="Sprite2D" parent="."]
+position = Vector2(1342.5, 366)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy182" type="Sprite2D" parent="."]
+position = Vector2(1602.5, 442)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked86" type="Sprite2D" parent="."]
+position = Vector2(1427, 406)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed175" type="Sprite2D" parent="."]
+position = Vector2(1528.5, 454)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy183" type="Sprite2D" parent="."]
+position = Vector2(983, 241)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy184" type="Sprite2D" parent="."]
+position = Vector2(1017, 257)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja130" type="Sprite2D" parent="."]
+position = Vector2(1093, 293)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy185" type="Sprite2D" parent="."]
+position = Vector2(935, 265)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja131" type="Sprite2D" parent="."]
+position = Vector2(1195, 341)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja132" type="Sprite2D" parent="."]
+position = Vector2(1012, 301)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked87" type="Sprite2D" parent="."]
+position = Vector2(1096, 341)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed176" type="Sprite2D" parent="."]
+position = Vector2(913, 301)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed177" type="Sprite2D" parent="."]
+position = Vector2(1015, 349)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy186" type="Sprite2D" parent="."]
+position = Vector2(1173, 377)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed178" type="Sprite2D" parent="."]
+position = Vector2(1099, 389)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy187" type="Sprite2D" parent="."]
+position = Vector2(840.5, 314)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed179" type="Sprite2D" parent="."]
+position = Vector2(917, 350)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja133" type="Sprite2D" parent="."]
+position = Vector2(951.5, 366)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy188" type="Sprite2D" parent="."]
+position = Vector2(792.5, 338)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed180" type="Sprite2D" parent="."]
+position = Vector2(1053, 414)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja134" type="Sprite2D" parent="."]
+position = Vector2(869.5, 374)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed181" type="Sprite2D" parent="."]
+position = Vector2(770.5, 374)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja135" type="Sprite2D" parent="."]
+position = Vector2(962, 418)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy189" type="Sprite2D" parent="."]
+position = Vector2(1030.5, 450)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked88" type="Sprite2D" parent="."]
+position = Vector2(872.5, 422)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed182" type="Sprite2D" parent="."]
+position = Vector2(956.5, 462)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy190" type="Sprite2D" parent="."]
+position = Vector2(1269, 378)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy191" type="Sprite2D" parent="."]
+position = Vector2(1303, 394)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja136" type="Sprite2D" parent="."]
+position = Vector2(1379, 430)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy192" type="Sprite2D" parent="."]
+position = Vector2(1221, 402)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja137" type="Sprite2D" parent="."]
+position = Vector2(1480, 477)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja138" type="Sprite2D" parent="."]
+position = Vector2(1298, 438)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed183" type="Sprite2D" parent="."]
+position = Vector2(1390, 482)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed184" type="Sprite2D" parent="."]
+position = Vector2(1199, 438)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy193" type="Sprite2D" parent="."]
+position = Vector2(1459, 514)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked89" type="Sprite2D" parent="."]
+position = Vector2(1301, 486)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed185" type="Sprite2D" parent="."]
+position = Vector2(1385, 526)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy194" type="Sprite2D" parent="."]
+position = Vector2(1126.5, 451)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed186" type="Sprite2D" parent="."]
+position = Vector2(1203, 487)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja139" type="Sprite2D" parent="."]
+position = Vector2(1237.5, 503)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy195" type="Sprite2D" parent="."]
+position = Vector2(1078.5, 475)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed187" type="Sprite2D" parent="."]
+position = Vector2(1339, 551)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja140" type="Sprite2D" parent="."]
+position = Vector2(1155.5, 511)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked90" type="Sprite2D" parent="."]
+position = Vector2(1239.5, 551)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed188" type="Sprite2D" parent="."]
+position = Vector2(1056.5, 511)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy196" type="Sprite2D" parent="."]
+position = Vector2(1316.5, 587)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked91" type="Sprite2D" parent="."]
+position = Vector2(1158.5, 559)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed189" type="Sprite2D" parent="."]
+position = Vector2(1242.5, 599)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy197" type="Sprite2D" parent="."]
+position = Vector2(1843, 369)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy198" type="Sprite2D" parent="."]
+position = Vector2(1877, 385)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja141" type="Sprite2D" parent="."]
+position = Vector2(1953, 421)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy199" type="Sprite2D" parent="."]
+position = Vector2(1795, 393)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja142" type="Sprite2D" parent="."]
+position = Vector2(2055, 469)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja143" type="Sprite2D" parent="."]
+position = Vector2(1872, 429)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked92" type="Sprite2D" parent="."]
+position = Vector2(1956, 469)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed190" type="Sprite2D" parent="."]
+position = Vector2(1773, 429)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy200" type="Sprite2D" parent="."]
+position = Vector2(2033, 505)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked93" type="Sprite2D" parent="."]
+position = Vector2(1875, 477)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed191" type="Sprite2D" parent="."]
+position = Vector2(1959, 517)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy201" type="Sprite2D" parent="."]
+position = Vector2(1700.5, 442)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed192" type="Sprite2D" parent="."]
+position = Vector2(1777, 478)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja144" type="Sprite2D" parent="."]
+position = Vector2(1811.5, 494)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy202" type="Sprite2D" parent="."]
+position = Vector2(1652.5, 466)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed193" type="Sprite2D" parent="."]
+position = Vector2(1913, 542)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja145" type="Sprite2D" parent="."]
+position = Vector2(1729.5, 502)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed194" type="Sprite2D" parent="."]
+position = Vector2(1630.5, 502)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed195" type="Sprite2D" parent="."]
+position = Vector2(1814, 542)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy203" type="Sprite2D" parent="."]
+position = Vector2(1890.5, 578)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked94" type="Sprite2D" parent="."]
+position = Vector2(1732.5, 550)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed196" type="Sprite2D" parent="."]
+position = Vector2(1816.5, 590)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy204" type="Sprite2D" parent="."]
+position = Vector2(2129, 506)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy205" type="Sprite2D" parent="."]
+position = Vector2(2163, 522)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja146" type="Sprite2D" parent="."]
+position = Vector2(2239, 558)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy206" type="Sprite2D" parent="."]
+position = Vector2(2081, 530)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja147" type="Sprite2D" parent="."]
+position = Vector2(2340, 605)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja148" type="Sprite2D" parent="."]
+position = Vector2(2158, 566)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked95" type="Sprite2D" parent="."]
+position = Vector2(2242, 606)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed197" type="Sprite2D" parent="."]
+position = Vector2(2059, 566)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy207" type="Sprite2D" parent="."]
+position = Vector2(2319, 642)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked96" type="Sprite2D" parent="."]
+position = Vector2(2161, 614)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed198" type="Sprite2D" parent="."]
+position = Vector2(2245, 654)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy208" type="Sprite2D" parent="."]
+position = Vector2(1986.5, 579)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed199" type="Sprite2D" parent="."]
+position = Vector2(2063, 615)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja149" type="Sprite2D" parent="."]
+position = Vector2(2097.5, 631)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy209" type="Sprite2D" parent="."]
+position = Vector2(1938.5, 603)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed200" type="Sprite2D" parent="."]
+position = Vector2(2199, 679)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked97" type="Sprite2D" parent="."]
+position = Vector2(2016, 639)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked98" type="Sprite2D" parent="."]
+position = Vector2(2099.5, 679)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed201" type="Sprite2D" parent="."]
+position = Vector2(1916.5, 639)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy210" type="Sprite2D" parent="."]
+position = Vector2(2176.5, 715)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked99" type="Sprite2D" parent="."]
+position = Vector2(2001, 679)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed202" type="Sprite2D" parent="."]
+position = Vector2(2102.5, 727)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy211" type="Sprite2D" parent="."]
+position = Vector2(1557, 514)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy212" type="Sprite2D" parent="."]
+position = Vector2(1591, 530)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja150" type="Sprite2D" parent="."]
+position = Vector2(1667, 566)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy213" type="Sprite2D" parent="."]
+position = Vector2(1509, 538)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja151" type="Sprite2D" parent="."]
+position = Vector2(1769, 614)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja152" type="Sprite2D" parent="."]
+position = Vector2(1586, 574)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked100" type="Sprite2D" parent="."]
+position = Vector2(1670, 614)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed203" type="Sprite2D" parent="."]
+position = Vector2(1487, 574)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed204" type="Sprite2D" parent="."]
+position = Vector2(1589, 622)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy214" type="Sprite2D" parent="."]
+position = Vector2(1747, 650)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed205" type="Sprite2D" parent="."]
+position = Vector2(1673, 662)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy215" type="Sprite2D" parent="."]
+position = Vector2(1414.5, 587)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed206" type="Sprite2D" parent="."]
+position = Vector2(1491, 623)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja153" type="Sprite2D" parent="."]
+position = Vector2(1525.5, 639)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy216" type="Sprite2D" parent="."]
+position = Vector2(1366.5, 611)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed207" type="Sprite2D" parent="."]
+position = Vector2(1627, 687)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja154" type="Sprite2D" parent="."]
+position = Vector2(1443.5, 647)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed208" type="Sprite2D" parent="."]
+position = Vector2(1344.5, 647)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja155" type="Sprite2D" parent="."]
+position = Vector2(1536, 691)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy217" type="Sprite2D" parent="."]
+position = Vector2(1604.5, 723)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked101" type="Sprite2D" parent="."]
+position = Vector2(1446.5, 695)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed209" type="Sprite2D" parent="."]
+position = Vector2(1530.5, 735)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy218" type="Sprite2D" parent="."]
+position = Vector2(1843, 651)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy219" type="Sprite2D" parent="."]
+position = Vector2(1877, 667)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja156" type="Sprite2D" parent="."]
+position = Vector2(1953, 703)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy220" type="Sprite2D" parent="."]
+position = Vector2(1795, 675)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja157" type="Sprite2D" parent="."]
+position = Vector2(2054, 750)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja158" type="Sprite2D" parent="."]
+position = Vector2(1872, 711)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed210" type="Sprite2D" parent="."]
+position = Vector2(1964, 755)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed211" type="Sprite2D" parent="."]
+position = Vector2(1773, 711)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy221" type="Sprite2D" parent="."]
+position = Vector2(2033, 787)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked102" type="Sprite2D" parent="."]
+position = Vector2(1875, 759)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed212" type="Sprite2D" parent="."]
+position = Vector2(1959, 799)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy222" type="Sprite2D" parent="."]
+position = Vector2(1700.5, 724)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed213" type="Sprite2D" parent="."]
+position = Vector2(1777, 760)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja159" type="Sprite2D" parent="."]
+position = Vector2(1811.5, 776)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy223" type="Sprite2D" parent="."]
+position = Vector2(1652.5, 748)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed214" type="Sprite2D" parent="."]
+position = Vector2(1913, 824)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja160" type="Sprite2D" parent="."]
+position = Vector2(1729.5, 784)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked103" type="Sprite2D" parent="."]
+position = Vector2(1813.5, 824)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed215" type="Sprite2D" parent="."]
+position = Vector2(1630.5, 784)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy224" type="Sprite2D" parent="."]
+position = Vector2(1890.5, 860)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked104" type="Sprite2D" parent="."]
+position = Vector2(1732.5, 832)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed216" type="Sprite2D" parent="."]
+position = Vector2(1816.5, 872)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy225" type="Sprite2D" parent="."]
+position = Vector2(-449, -159)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy226" type="Sprite2D" parent="."]
+position = Vector2(-415, -143)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja161" type="Sprite2D" parent="."]
+position = Vector2(-339, -107)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy227" type="Sprite2D" parent="."]
+position = Vector2(-497, -135)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja162" type="Sprite2D" parent="."]
+position = Vector2(-237, -59)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja163" type="Sprite2D" parent="."]
+position = Vector2(-420, -99)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked105" type="Sprite2D" parent="."]
+position = Vector2(-336, -59)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed217" type="Sprite2D" parent="."]
+position = Vector2(-519, -99)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy228" type="Sprite2D" parent="."]
+position = Vector2(-259, -23)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked106" type="Sprite2D" parent="."]
+position = Vector2(-417, -51)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed218" type="Sprite2D" parent="."]
+position = Vector2(-333, -11)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy229" type="Sprite2D" parent="."]
+position = Vector2(-591.5, -86)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed219" type="Sprite2D" parent="."]
+position = Vector2(-515, -50)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja164" type="Sprite2D" parent="."]
+position = Vector2(-480.5, -34)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy230" type="Sprite2D" parent="."]
+position = Vector2(-639.5, -62)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed220" type="Sprite2D" parent="."]
+position = Vector2(-379, 14)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja165" type="Sprite2D" parent="."]
+position = Vector2(-562.5, -26)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed221" type="Sprite2D" parent="."]
+position = Vector2(-661.5, -26)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed222" type="Sprite2D" parent="."]
+position = Vector2(-478, 14)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy231" type="Sprite2D" parent="."]
+position = Vector2(-401.5, 50)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked107" type="Sprite2D" parent="."]
+position = Vector2(-559.5, 22)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed223" type="Sprite2D" parent="."]
+position = Vector2(-475.5, 62)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy232" type="Sprite2D" parent="."]
+position = Vector2(-163, -22)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy233" type="Sprite2D" parent="."]
+position = Vector2(-129, -6)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja166" type="Sprite2D" parent="."]
+position = Vector2(-53, 30)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy234" type="Sprite2D" parent="."]
+position = Vector2(-211, 2)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja167" type="Sprite2D" parent="."]
+position = Vector2(48, 77)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja168" type="Sprite2D" parent="."]
+position = Vector2(-134, 38)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked108" type="Sprite2D" parent="."]
+position = Vector2(-50, 78)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed224" type="Sprite2D" parent="."]
+position = Vector2(-233, 38)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy235" type="Sprite2D" parent="."]
+position = Vector2(27, 114)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked109" type="Sprite2D" parent="."]
+position = Vector2(-131, 86)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed225" type="Sprite2D" parent="."]
+position = Vector2(-47, 126)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy236" type="Sprite2D" parent="."]
+position = Vector2(-305.5, 51)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed226" type="Sprite2D" parent="."]
+position = Vector2(-229, 87)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja169" type="Sprite2D" parent="."]
+position = Vector2(-194.5, 103)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy237" type="Sprite2D" parent="."]
+position = Vector2(-353.5, 75)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed227" type="Sprite2D" parent="."]
+position = Vector2(-93, 151)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked110" type="Sprite2D" parent="."]
+position = Vector2(-276, 111)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked111" type="Sprite2D" parent="."]
+position = Vector2(-192.5, 151)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed228" type="Sprite2D" parent="."]
+position = Vector2(-375.5, 111)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy238" type="Sprite2D" parent="."]
+position = Vector2(-115.5, 187)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked112" type="Sprite2D" parent="."]
+position = Vector2(-291, 151)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed229" type="Sprite2D" parent="."]
+position = Vector2(-189.5, 199)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy239" type="Sprite2D" parent="."]
+position = Vector2(-735, -14)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy240" type="Sprite2D" parent="."]
+position = Vector2(-701, 2)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja170" type="Sprite2D" parent="."]
+position = Vector2(-625, 38)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy241" type="Sprite2D" parent="."]
+position = Vector2(-783, 10)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja171" type="Sprite2D" parent="."]
+position = Vector2(-523, 86)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja172" type="Sprite2D" parent="."]
+position = Vector2(-706, 46)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked113" type="Sprite2D" parent="."]
+position = Vector2(-622, 86)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed230" type="Sprite2D" parent="."]
+position = Vector2(-805, 46)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed231" type="Sprite2D" parent="."]
+position = Vector2(-703, 94)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy242" type="Sprite2D" parent="."]
+position = Vector2(-545, 122)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed232" type="Sprite2D" parent="."]
+position = Vector2(-619, 134)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy243" type="Sprite2D" parent="."]
+position = Vector2(-877.5, 59)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed233" type="Sprite2D" parent="."]
+position = Vector2(-801, 95)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja173" type="Sprite2D" parent="."]
+position = Vector2(-766.5, 111)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy244" type="Sprite2D" parent="."]
+position = Vector2(-925.5, 83)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed234" type="Sprite2D" parent="."]
+position = Vector2(-665, 159)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja174" type="Sprite2D" parent="."]
+position = Vector2(-848.5, 119)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed235" type="Sprite2D" parent="."]
+position = Vector2(-947.5, 119)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja175" type="Sprite2D" parent="."]
+position = Vector2(-756, 163)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy245" type="Sprite2D" parent="."]
+position = Vector2(-687.5, 195)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked114" type="Sprite2D" parent="."]
+position = Vector2(-845.5, 167)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed236" type="Sprite2D" parent="."]
+position = Vector2(-761.5, 207)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy246" type="Sprite2D" parent="."]
+position = Vector2(-449, 123)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy247" type="Sprite2D" parent="."]
+position = Vector2(-415, 139)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja176" type="Sprite2D" parent="."]
+position = Vector2(-339, 175)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy248" type="Sprite2D" parent="."]
+position = Vector2(-497, 147)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja177" type="Sprite2D" parent="."]
+position = Vector2(-238, 222)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja178" type="Sprite2D" parent="."]
+position = Vector2(-420, 183)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed237" type="Sprite2D" parent="."]
+position = Vector2(-328, 227)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed238" type="Sprite2D" parent="."]
+position = Vector2(-519, 183)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy249" type="Sprite2D" parent="."]
+position = Vector2(-259, 259)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked115" type="Sprite2D" parent="."]
+position = Vector2(-417, 231)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed239" type="Sprite2D" parent="."]
+position = Vector2(-333, 271)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy250" type="Sprite2D" parent="."]
+position = Vector2(-591.5, 196)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed240" type="Sprite2D" parent="."]
+position = Vector2(-515, 232)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja179" type="Sprite2D" parent="."]
+position = Vector2(-480.5, 248)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy251" type="Sprite2D" parent="."]
+position = Vector2(-639.5, 220)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed241" type="Sprite2D" parent="."]
+position = Vector2(-379, 296)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja180" type="Sprite2D" parent="."]
+position = Vector2(-562.5, 256)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked116" type="Sprite2D" parent="."]
+position = Vector2(-478.5, 296)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed242" type="Sprite2D" parent="."]
+position = Vector2(-661.5, 256)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy252" type="Sprite2D" parent="."]
+position = Vector2(-401.5, 332)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked117" type="Sprite2D" parent="."]
+position = Vector2(-559.5, 304)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed243" type="Sprite2D" parent="."]
+position = Vector2(-475.5, 344)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy253" type="Sprite2D" parent="."]
+position = Vector2(125, 114)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy254" type="Sprite2D" parent="."]
+position = Vector2(159, 130)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja181" type="Sprite2D" parent="."]
+position = Vector2(235, 166)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy255" type="Sprite2D" parent="."]
+position = Vector2(77, 138)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja182" type="Sprite2D" parent="."]
+position = Vector2(337, 214)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja183" type="Sprite2D" parent="."]
+position = Vector2(154, 174)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked118" type="Sprite2D" parent="."]
+position = Vector2(238, 214)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed244" type="Sprite2D" parent="."]
+position = Vector2(55, 174)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy256" type="Sprite2D" parent="."]
+position = Vector2(315, 250)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked119" type="Sprite2D" parent="."]
+position = Vector2(157, 222)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed245" type="Sprite2D" parent="."]
+position = Vector2(241, 262)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy257" type="Sprite2D" parent="."]
+position = Vector2(-17.5, 187)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed246" type="Sprite2D" parent="."]
+position = Vector2(59, 223)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja184" type="Sprite2D" parent="."]
+position = Vector2(93.5, 239)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy258" type="Sprite2D" parent="."]
+position = Vector2(-65.5, 211)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed247" type="Sprite2D" parent="."]
+position = Vector2(195, 287)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja185" type="Sprite2D" parent="."]
+position = Vector2(11.5, 247)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed248" type="Sprite2D" parent="."]
+position = Vector2(-87.5, 247)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed249" type="Sprite2D" parent="."]
+position = Vector2(96, 287)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy259" type="Sprite2D" parent="."]
+position = Vector2(172.5, 323)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked120" type="Sprite2D" parent="."]
+position = Vector2(14.5, 295)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed250" type="Sprite2D" parent="."]
+position = Vector2(98.5, 335)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy260" type="Sprite2D" parent="."]
+position = Vector2(411, 251)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy261" type="Sprite2D" parent="."]
+position = Vector2(445, 267)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja186" type="Sprite2D" parent="."]
+position = Vector2(521, 303)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy262" type="Sprite2D" parent="."]
+position = Vector2(363, 275)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja187" type="Sprite2D" parent="."]
+position = Vector2(622, 350)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja188" type="Sprite2D" parent="."]
+position = Vector2(440, 311)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked121" type="Sprite2D" parent="."]
+position = Vector2(524, 351)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed251" type="Sprite2D" parent="."]
+position = Vector2(341, 311)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy263" type="Sprite2D" parent="."]
+position = Vector2(601, 387)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked122" type="Sprite2D" parent="."]
+position = Vector2(443, 359)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed252" type="Sprite2D" parent="."]
+position = Vector2(527, 399)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy264" type="Sprite2D" parent="."]
+position = Vector2(268.5, 324)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed253" type="Sprite2D" parent="."]
+position = Vector2(345, 360)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja189" type="Sprite2D" parent="."]
+position = Vector2(379.5, 376)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy265" type="Sprite2D" parent="."]
+position = Vector2(220.5, 348)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed254" type="Sprite2D" parent="."]
+position = Vector2(481, 424)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked123" type="Sprite2D" parent="."]
+position = Vector2(298, 384)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked124" type="Sprite2D" parent="."]
+position = Vector2(381.5, 424)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed255" type="Sprite2D" parent="."]
+position = Vector2(198.5, 384)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy266" type="Sprite2D" parent="."]
+position = Vector2(458.5, 460)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked125" type="Sprite2D" parent="."]
+position = Vector2(283, 424)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed256" type="Sprite2D" parent="."]
+position = Vector2(384.5, 472)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy267" type="Sprite2D" parent="."]
+position = Vector2(-161, 259)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy268" type="Sprite2D" parent="."]
+position = Vector2(-127, 275)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja190" type="Sprite2D" parent="."]
+position = Vector2(-51, 311)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy269" type="Sprite2D" parent="."]
+position = Vector2(-209, 283)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja191" type="Sprite2D" parent="."]
+position = Vector2(51, 359)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja192" type="Sprite2D" parent="."]
+position = Vector2(-132, 319)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked126" type="Sprite2D" parent="."]
+position = Vector2(-48, 359)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed257" type="Sprite2D" parent="."]
+position = Vector2(-231, 319)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed258" type="Sprite2D" parent="."]
+position = Vector2(-129, 367)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy270" type="Sprite2D" parent="."]
+position = Vector2(29, 395)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed259" type="Sprite2D" parent="."]
+position = Vector2(-45, 407)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy271" type="Sprite2D" parent="."]
+position = Vector2(-303.5, 332)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed260" type="Sprite2D" parent="."]
+position = Vector2(-227, 368)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja193" type="Sprite2D" parent="."]
+position = Vector2(-192.5, 384)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy272" type="Sprite2D" parent="."]
+position = Vector2(-351.5, 356)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed261" type="Sprite2D" parent="."]
+position = Vector2(-91, 432)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja194" type="Sprite2D" parent="."]
+position = Vector2(-274.5, 392)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed262" type="Sprite2D" parent="."]
+position = Vector2(-373.5, 392)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja195" type="Sprite2D" parent="."]
+position = Vector2(-182, 436)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy273" type="Sprite2D" parent="."]
+position = Vector2(-113.5, 468)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked127" type="Sprite2D" parent="."]
+position = Vector2(-271.5, 440)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed263" type="Sprite2D" parent="."]
+position = Vector2(-187.5, 480)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy274" type="Sprite2D" parent="."]
+position = Vector2(125, 396)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy275" type="Sprite2D" parent="."]
+position = Vector2(159, 412)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja196" type="Sprite2D" parent="."]
+position = Vector2(235, 448)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy276" type="Sprite2D" parent="."]
+position = Vector2(77, 420)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja197" type="Sprite2D" parent="."]
+position = Vector2(336, 495)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja198" type="Sprite2D" parent="."]
+position = Vector2(154, 456)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed264" type="Sprite2D" parent="."]
+position = Vector2(246, 500)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed265" type="Sprite2D" parent="."]
+position = Vector2(55, 456)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy277" type="Sprite2D" parent="."]
+position = Vector2(315, 532)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked128" type="Sprite2D" parent="."]
+position = Vector2(157, 504)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed266" type="Sprite2D" parent="."]
+position = Vector2(241, 544)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy278" type="Sprite2D" parent="."]
+position = Vector2(-17.5, 469)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed267" type="Sprite2D" parent="."]
+position = Vector2(59, 505)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja199" type="Sprite2D" parent="."]
+position = Vector2(93.5, 521)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy279" type="Sprite2D" parent="."]
+position = Vector2(-65.5, 493)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed268" type="Sprite2D" parent="."]
+position = Vector2(195, 569)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja200" type="Sprite2D" parent="."]
+position = Vector2(11.5, 529)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked129" type="Sprite2D" parent="."]
+position = Vector2(95.5, 569)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed269" type="Sprite2D" parent="."]
+position = Vector2(-87.5, 529)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy280" type="Sprite2D" parent="."]
+position = Vector2(172.5, 605)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked130" type="Sprite2D" parent="."]
+position = Vector2(14.5, 577)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed270" type="Sprite2D" parent="."]
+position = Vector2(98.5, 617)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy281" type="Sprite2D" parent="."]
+position = Vector2(698, 387)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy282" type="Sprite2D" parent="."]
+position = Vector2(732, 403)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja201" type="Sprite2D" parent="."]
+position = Vector2(808, 439)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy283" type="Sprite2D" parent="."]
+position = Vector2(650, 411)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja202" type="Sprite2D" parent="."]
+position = Vector2(910, 487)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja203" type="Sprite2D" parent="."]
+position = Vector2(727, 447)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked131" type="Sprite2D" parent="."]
+position = Vector2(811, 487)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed271" type="Sprite2D" parent="."]
+position = Vector2(628, 447)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy284" type="Sprite2D" parent="."]
+position = Vector2(888, 523)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked132" type="Sprite2D" parent="."]
+position = Vector2(730, 495)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed272" type="Sprite2D" parent="."]
+position = Vector2(814, 535)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy285" type="Sprite2D" parent="."]
+position = Vector2(555.5, 460)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed273" type="Sprite2D" parent="."]
+position = Vector2(632, 496)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja204" type="Sprite2D" parent="."]
+position = Vector2(666.5, 512)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy286" type="Sprite2D" parent="."]
+position = Vector2(507.5, 484)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed274" type="Sprite2D" parent="."]
+position = Vector2(768, 560)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja205" type="Sprite2D" parent="."]
+position = Vector2(584.5, 520)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed275" type="Sprite2D" parent="."]
+position = Vector2(485.5, 520)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed276" type="Sprite2D" parent="."]
+position = Vector2(669, 560)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy287" type="Sprite2D" parent="."]
+position = Vector2(745.5, 596)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked133" type="Sprite2D" parent="."]
+position = Vector2(587.5, 568)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed277" type="Sprite2D" parent="."]
+position = Vector2(671.5, 608)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy288" type="Sprite2D" parent="."]
+position = Vector2(984, 524)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy289" type="Sprite2D" parent="."]
+position = Vector2(1018, 540)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja206" type="Sprite2D" parent="."]
+position = Vector2(1094, 576)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy290" type="Sprite2D" parent="."]
+position = Vector2(936, 548)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja207" type="Sprite2D" parent="."]
+position = Vector2(1195, 623)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja208" type="Sprite2D" parent="."]
+position = Vector2(1013, 584)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked134" type="Sprite2D" parent="."]
+position = Vector2(1097, 624)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed278" type="Sprite2D" parent="."]
+position = Vector2(914, 584)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy291" type="Sprite2D" parent="."]
+position = Vector2(1174, 660)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked135" type="Sprite2D" parent="."]
+position = Vector2(1016, 632)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed279" type="Sprite2D" parent="."]
+position = Vector2(1100, 672)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy292" type="Sprite2D" parent="."]
+position = Vector2(841.5, 597)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed280" type="Sprite2D" parent="."]
+position = Vector2(918, 633)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja209" type="Sprite2D" parent="."]
+position = Vector2(952.5, 649)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy293" type="Sprite2D" parent="."]
+position = Vector2(793.5, 621)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed281" type="Sprite2D" parent="."]
+position = Vector2(1054, 697)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked136" type="Sprite2D" parent="."]
+position = Vector2(871, 657)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked137" type="Sprite2D" parent="."]
+position = Vector2(954.5, 697)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed282" type="Sprite2D" parent="."]
+position = Vector2(771.5, 657)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy294" type="Sprite2D" parent="."]
+position = Vector2(1031.5, 733)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked138" type="Sprite2D" parent="."]
+position = Vector2(856, 697)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed283" type="Sprite2D" parent="."]
+position = Vector2(957.5, 745)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy295" type="Sprite2D" parent="."]
+position = Vector2(412, 532)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy296" type="Sprite2D" parent="."]
+position = Vector2(446, 548)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja210" type="Sprite2D" parent="."]
+position = Vector2(522, 584)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy297" type="Sprite2D" parent="."]
+position = Vector2(364, 556)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja211" type="Sprite2D" parent="."]
+position = Vector2(624, 632)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja212" type="Sprite2D" parent="."]
+position = Vector2(441, 592)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked139" type="Sprite2D" parent="."]
+position = Vector2(525, 632)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed284" type="Sprite2D" parent="."]
+position = Vector2(342, 592)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed285" type="Sprite2D" parent="."]
+position = Vector2(444, 640)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy298" type="Sprite2D" parent="."]
+position = Vector2(602, 668)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed286" type="Sprite2D" parent="."]
+position = Vector2(528, 680)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy299" type="Sprite2D" parent="."]
+position = Vector2(269.5, 605)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed287" type="Sprite2D" parent="."]
+position = Vector2(346, 641)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja213" type="Sprite2D" parent="."]
+position = Vector2(380.5, 657)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy300" type="Sprite2D" parent="."]
+position = Vector2(221.5, 629)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed288" type="Sprite2D" parent="."]
+position = Vector2(482, 705)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja214" type="Sprite2D" parent="."]
+position = Vector2(298.5, 665)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed289" type="Sprite2D" parent="."]
+position = Vector2(199.5, 665)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja215" type="Sprite2D" parent="."]
+position = Vector2(391, 709)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy301" type="Sprite2D" parent="."]
+position = Vector2(459.5, 741)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked140" type="Sprite2D" parent="."]
+position = Vector2(301.5, 713)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed290" type="Sprite2D" parent="."]
+position = Vector2(385.5, 753)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy302" type="Sprite2D" parent="."]
+position = Vector2(698, 669)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy303" type="Sprite2D" parent="."]
+position = Vector2(732, 685)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja216" type="Sprite2D" parent="."]
+position = Vector2(808, 721)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy304" type="Sprite2D" parent="."]
+position = Vector2(650, 693)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja217" type="Sprite2D" parent="."]
+position = Vector2(909, 768)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja218" type="Sprite2D" parent="."]
+position = Vector2(727, 729)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed291" type="Sprite2D" parent="."]
+position = Vector2(819, 773)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed292" type="Sprite2D" parent="."]
+position = Vector2(628, 729)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy305" type="Sprite2D" parent="."]
+position = Vector2(888, 805)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked141" type="Sprite2D" parent="."]
+position = Vector2(730, 777)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed293" type="Sprite2D" parent="."]
+position = Vector2(814, 817)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy306" type="Sprite2D" parent="."]
+position = Vector2(555.5, 742)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed294" type="Sprite2D" parent="."]
+position = Vector2(632, 778)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja219" type="Sprite2D" parent="."]
+position = Vector2(666.5, 794)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy307" type="Sprite2D" parent="."]
+position = Vector2(507.5, 766)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed295" type="Sprite2D" parent="."]
+position = Vector2(768, 842)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja220" type="Sprite2D" parent="."]
+position = Vector2(584.5, 802)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked142" type="Sprite2D" parent="."]
+position = Vector2(668.5, 842)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed296" type="Sprite2D" parent="."]
+position = Vector2(485.5, 802)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy308" type="Sprite2D" parent="."]
+position = Vector2(745.5, 878)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked143" type="Sprite2D" parent="."]
+position = Vector2(587.5, 850)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed297" type="Sprite2D" parent="."]
+position = Vector2(671.5, 890)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy309" type="Sprite2D" parent="."]
+position = Vector2(1272, 660)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy310" type="Sprite2D" parent="."]
+position = Vector2(1306, 676)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja221" type="Sprite2D" parent="."]
+position = Vector2(1382, 712)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy311" type="Sprite2D" parent="."]
+position = Vector2(1224, 684)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja222" type="Sprite2D" parent="."]
+position = Vector2(1484, 760)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja223" type="Sprite2D" parent="."]
+position = Vector2(1301, 720)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked144" type="Sprite2D" parent="."]
+position = Vector2(1385, 760)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed298" type="Sprite2D" parent="."]
+position = Vector2(1202, 720)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy312" type="Sprite2D" parent="."]
+position = Vector2(1462, 796)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked145" type="Sprite2D" parent="."]
+position = Vector2(1304, 768)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed299" type="Sprite2D" parent="."]
+position = Vector2(1388, 808)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy313" type="Sprite2D" parent="."]
+position = Vector2(1129.5, 733)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed300" type="Sprite2D" parent="."]
+position = Vector2(1206, 769)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja224" type="Sprite2D" parent="."]
+position = Vector2(1240.5, 785)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy314" type="Sprite2D" parent="."]
+position = Vector2(1081.5, 757)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed301" type="Sprite2D" parent="."]
+position = Vector2(1342, 833)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja225" type="Sprite2D" parent="."]
+position = Vector2(1158.5, 793)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed302" type="Sprite2D" parent="."]
+position = Vector2(1059.5, 793)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed303" type="Sprite2D" parent="."]
+position = Vector2(1243, 833)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy315" type="Sprite2D" parent="."]
+position = Vector2(1319.5, 869)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked146" type="Sprite2D" parent="."]
+position = Vector2(1161.5, 841)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed304" type="Sprite2D" parent="."]
+position = Vector2(1245.5, 881)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy316" type="Sprite2D" parent="."]
+position = Vector2(1558, 797)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy317" type="Sprite2D" parent="."]
+position = Vector2(1592, 813)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja226" type="Sprite2D" parent="."]
+position = Vector2(1668, 849)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy318" type="Sprite2D" parent="."]
+position = Vector2(1510, 821)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja227" type="Sprite2D" parent="."]
+position = Vector2(1769, 896)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja228" type="Sprite2D" parent="."]
+position = Vector2(1587, 857)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked147" type="Sprite2D" parent="."]
+position = Vector2(1671, 897)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed305" type="Sprite2D" parent="."]
+position = Vector2(1488, 857)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy319" type="Sprite2D" parent="."]
+position = Vector2(1748, 933)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked148" type="Sprite2D" parent="."]
+position = Vector2(1590, 905)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed306" type="Sprite2D" parent="."]
+position = Vector2(1674, 945)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy320" type="Sprite2D" parent="."]
+position = Vector2(1415.5, 870)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed307" type="Sprite2D" parent="."]
+position = Vector2(1492, 906)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja229" type="Sprite2D" parent="."]
+position = Vector2(1526.5, 922)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy321" type="Sprite2D" parent="."]
+position = Vector2(1367.5, 894)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed308" type="Sprite2D" parent="."]
+position = Vector2(1628, 970)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked149" type="Sprite2D" parent="."]
+position = Vector2(1445, 930)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked150" type="Sprite2D" parent="."]
+position = Vector2(1528.5, 970)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed309" type="Sprite2D" parent="."]
+position = Vector2(1345.5, 930)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy322" type="Sprite2D" parent="."]
+position = Vector2(1605.5, 1006)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked151" type="Sprite2D" parent="."]
+position = Vector2(1430, 970)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed310" type="Sprite2D" parent="."]
+position = Vector2(1531.5, 1018)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy323" type="Sprite2D" parent="."]
+position = Vector2(986, 805)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy324" type="Sprite2D" parent="."]
+position = Vector2(1020, 821)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja230" type="Sprite2D" parent="."]
+position = Vector2(1096, 857)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy325" type="Sprite2D" parent="."]
+position = Vector2(938, 829)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja231" type="Sprite2D" parent="."]
+position = Vector2(1198, 905)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja232" type="Sprite2D" parent="."]
+position = Vector2(1015, 865)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked152" type="Sprite2D" parent="."]
+position = Vector2(1099, 905)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed311" type="Sprite2D" parent="."]
+position = Vector2(916, 865)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed312" type="Sprite2D" parent="."]
+position = Vector2(1018, 913)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy326" type="Sprite2D" parent="."]
+position = Vector2(1176, 941)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed313" type="Sprite2D" parent="."]
+position = Vector2(1102, 953)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy327" type="Sprite2D" parent="."]
+position = Vector2(843.5, 878)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed314" type="Sprite2D" parent="."]
+position = Vector2(920, 914)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja233" type="Sprite2D" parent="."]
+position = Vector2(954.5, 930)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy328" type="Sprite2D" parent="."]
+position = Vector2(795.5, 902)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed315" type="Sprite2D" parent="."]
+position = Vector2(1056, 978)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja234" type="Sprite2D" parent="."]
+position = Vector2(872.5, 938)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed316" type="Sprite2D" parent="."]
+position = Vector2(773.5, 938)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja235" type="Sprite2D" parent="."]
+position = Vector2(965, 982)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy329" type="Sprite2D" parent="."]
+position = Vector2(1033.5, 1014)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked153" type="Sprite2D" parent="."]
+position = Vector2(875.5, 986)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed317" type="Sprite2D" parent="."]
+position = Vector2(959.5, 1026)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy330" type="Sprite2D" parent="."]
+position = Vector2(1272, 942)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy331" type="Sprite2D" parent="."]
+position = Vector2(1306, 958)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja236" type="Sprite2D" parent="."]
+position = Vector2(1382, 994)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy332" type="Sprite2D" parent="."]
+position = Vector2(1224, 966)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja237" type="Sprite2D" parent="."]
+position = Vector2(1483, 1041)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja238" type="Sprite2D" parent="."]
+position = Vector2(1301, 1002)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed318" type="Sprite2D" parent="."]
+position = Vector2(1393, 1046)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed319" type="Sprite2D" parent="."]
+position = Vector2(1202, 1002)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy333" type="Sprite2D" parent="."]
+position = Vector2(1462, 1078)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked154" type="Sprite2D" parent="."]
+position = Vector2(1304, 1050)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed320" type="Sprite2D" parent="."]
+position = Vector2(1388, 1090)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy334" type="Sprite2D" parent="."]
+position = Vector2(1129.5, 1015)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed321" type="Sprite2D" parent="."]
+position = Vector2(1206, 1051)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja239" type="Sprite2D" parent="."]
+position = Vector2(1240.5, 1067)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy335" type="Sprite2D" parent="."]
+position = Vector2(1081.5, 1039)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed322" type="Sprite2D" parent="."]
+position = Vector2(1342, 1115)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja240" type="Sprite2D" parent="."]
+position = Vector2(1158.5, 1075)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked155" type="Sprite2D" parent="."]
+position = Vector2(1242.5, 1115)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed323" type="Sprite2D" parent="."]
+position = Vector2(1059.5, 1075)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy336" type="Sprite2D" parent="."]
+position = Vector2(1319.5, 1151)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked156" type="Sprite2D" parent="."]
+position = Vector2(1161.5, 1123)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed324" type="Sprite2D" parent="."]
+position = Vector2(1245.5, 1163)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy337" type="Sprite2D" parent="."]
+position = Vector2(-1020, 132)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy338" type="Sprite2D" parent="."]
+position = Vector2(-986, 148)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja241" type="Sprite2D" parent="."]
+position = Vector2(-910, 184)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy339" type="Sprite2D" parent="."]
+position = Vector2(-1068, 156)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja242" type="Sprite2D" parent="."]
+position = Vector2(-808, 232)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja243" type="Sprite2D" parent="."]
+position = Vector2(-991, 192)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked157" type="Sprite2D" parent="."]
+position = Vector2(-907, 232)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed325" type="Sprite2D" parent="."]
+position = Vector2(-1090, 192)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy340" type="Sprite2D" parent="."]
+position = Vector2(-830, 268)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked158" type="Sprite2D" parent="."]
+position = Vector2(-988, 240)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed326" type="Sprite2D" parent="."]
+position = Vector2(-904, 280)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy341" type="Sprite2D" parent="."]
+position = Vector2(-1162.5, 205)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed327" type="Sprite2D" parent="."]
+position = Vector2(-1086, 241)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja244" type="Sprite2D" parent="."]
+position = Vector2(-1051.5, 257)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy342" type="Sprite2D" parent="."]
+position = Vector2(-1210.5, 229)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed328" type="Sprite2D" parent="."]
+position = Vector2(-950, 305)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja245" type="Sprite2D" parent="."]
+position = Vector2(-1133.5, 265)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed329" type="Sprite2D" parent="."]
+position = Vector2(-1232.5, 265)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed330" type="Sprite2D" parent="."]
+position = Vector2(-1049, 305)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy343" type="Sprite2D" parent="."]
+position = Vector2(-972.5, 341)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked159" type="Sprite2D" parent="."]
+position = Vector2(-1130.5, 313)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed331" type="Sprite2D" parent="."]
+position = Vector2(-1046.5, 353)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy344" type="Sprite2D" parent="."]
+position = Vector2(-734, 269)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy345" type="Sprite2D" parent="."]
+position = Vector2(-700, 285)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja246" type="Sprite2D" parent="."]
+position = Vector2(-624, 321)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy346" type="Sprite2D" parent="."]
+position = Vector2(-782, 293)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja247" type="Sprite2D" parent="."]
+position = Vector2(-523, 368)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja248" type="Sprite2D" parent="."]
+position = Vector2(-705, 329)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked160" type="Sprite2D" parent="."]
+position = Vector2(-621, 369)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed332" type="Sprite2D" parent="."]
+position = Vector2(-804, 329)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy347" type="Sprite2D" parent="."]
+position = Vector2(-544, 405)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked161" type="Sprite2D" parent="."]
+position = Vector2(-702, 377)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed333" type="Sprite2D" parent="."]
+position = Vector2(-618, 417)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy348" type="Sprite2D" parent="."]
+position = Vector2(-876.5, 342)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed334" type="Sprite2D" parent="."]
+position = Vector2(-800, 378)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja249" type="Sprite2D" parent="."]
+position = Vector2(-765.5, 394)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy349" type="Sprite2D" parent="."]
+position = Vector2(-924.5, 366)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed335" type="Sprite2D" parent="."]
+position = Vector2(-664, 442)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked162" type="Sprite2D" parent="."]
+position = Vector2(-847, 402)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked163" type="Sprite2D" parent="."]
+position = Vector2(-763.5, 442)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed336" type="Sprite2D" parent="."]
+position = Vector2(-946.5, 402)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy350" type="Sprite2D" parent="."]
+position = Vector2(-686.5, 478)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked164" type="Sprite2D" parent="."]
+position = Vector2(-862, 442)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed337" type="Sprite2D" parent="."]
+position = Vector2(-760.5, 490)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy351" type="Sprite2D" parent="."]
+position = Vector2(-1306, 277)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy352" type="Sprite2D" parent="."]
+position = Vector2(-1272, 293)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja250" type="Sprite2D" parent="."]
+position = Vector2(-1196, 329)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy353" type="Sprite2D" parent="."]
+position = Vector2(-1354, 301)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja251" type="Sprite2D" parent="."]
+position = Vector2(-1094, 377)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja252" type="Sprite2D" parent="."]
+position = Vector2(-1277, 337)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked165" type="Sprite2D" parent="."]
+position = Vector2(-1193, 377)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed338" type="Sprite2D" parent="."]
+position = Vector2(-1376, 337)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed339" type="Sprite2D" parent="."]
+position = Vector2(-1274, 385)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy354" type="Sprite2D" parent="."]
+position = Vector2(-1116, 413)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed340" type="Sprite2D" parent="."]
+position = Vector2(-1190, 425)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy355" type="Sprite2D" parent="."]
+position = Vector2(-1448.5, 350)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed341" type="Sprite2D" parent="."]
+position = Vector2(-1372, 386)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja253" type="Sprite2D" parent="."]
+position = Vector2(-1337.5, 402)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy356" type="Sprite2D" parent="."]
+position = Vector2(-1496.5, 374)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed342" type="Sprite2D" parent="."]
+position = Vector2(-1236, 450)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja254" type="Sprite2D" parent="."]
+position = Vector2(-1419.5, 410)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed343" type="Sprite2D" parent="."]
+position = Vector2(-1518.5, 410)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja255" type="Sprite2D" parent="."]
+position = Vector2(-1327, 454)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy357" type="Sprite2D" parent="."]
+position = Vector2(-1258.5, 486)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked166" type="Sprite2D" parent="."]
+position = Vector2(-1416.5, 458)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed344" type="Sprite2D" parent="."]
+position = Vector2(-1332.5, 498)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy358" type="Sprite2D" parent="."]
+position = Vector2(-1020, 414)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy359" type="Sprite2D" parent="."]
+position = Vector2(-986, 430)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja256" type="Sprite2D" parent="."]
+position = Vector2(-910, 466)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy360" type="Sprite2D" parent="."]
+position = Vector2(-1068, 438)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja257" type="Sprite2D" parent="."]
+position = Vector2(-809, 513)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja258" type="Sprite2D" parent="."]
+position = Vector2(-991, 474)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed345" type="Sprite2D" parent="."]
+position = Vector2(-899, 518)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed346" type="Sprite2D" parent="."]
+position = Vector2(-1090, 474)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy361" type="Sprite2D" parent="."]
+position = Vector2(-830, 550)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked167" type="Sprite2D" parent="."]
+position = Vector2(-988, 522)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed347" type="Sprite2D" parent="."]
+position = Vector2(-904, 562)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy362" type="Sprite2D" parent="."]
+position = Vector2(-1162.5, 487)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed348" type="Sprite2D" parent="."]
+position = Vector2(-1086, 523)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja259" type="Sprite2D" parent="."]
+position = Vector2(-1051.5, 539)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy363" type="Sprite2D" parent="."]
+position = Vector2(-1210.5, 511)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed349" type="Sprite2D" parent="."]
+position = Vector2(-950, 587)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja260" type="Sprite2D" parent="."]
+position = Vector2(-1133.5, 547)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked168" type="Sprite2D" parent="."]
+position = Vector2(-1049.5, 587)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed350" type="Sprite2D" parent="."]
+position = Vector2(-1232.5, 547)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy364" type="Sprite2D" parent="."]
+position = Vector2(-972.5, 623)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked169" type="Sprite2D" parent="."]
+position = Vector2(-1130.5, 595)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed351" type="Sprite2D" parent="."]
+position = Vector2(-1046.5, 635)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy365" type="Sprite2D" parent="."]
+position = Vector2(-446, 405)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy366" type="Sprite2D" parent="."]
+position = Vector2(-412, 421)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja261" type="Sprite2D" parent="."]
+position = Vector2(-336, 457)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy367" type="Sprite2D" parent="."]
+position = Vector2(-494, 429)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja262" type="Sprite2D" parent="."]
+position = Vector2(-234, 505)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja263" type="Sprite2D" parent="."]
+position = Vector2(-417, 465)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked170" type="Sprite2D" parent="."]
+position = Vector2(-333, 505)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed352" type="Sprite2D" parent="."]
+position = Vector2(-516, 465)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy368" type="Sprite2D" parent="."]
+position = Vector2(-256, 541)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked171" type="Sprite2D" parent="."]
+position = Vector2(-414, 513)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed353" type="Sprite2D" parent="."]
+position = Vector2(-330, 553)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy369" type="Sprite2D" parent="."]
+position = Vector2(-588.5, 478)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed354" type="Sprite2D" parent="."]
+position = Vector2(-512, 514)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja264" type="Sprite2D" parent="."]
+position = Vector2(-477.5, 530)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy370" type="Sprite2D" parent="."]
+position = Vector2(-636.5, 502)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed355" type="Sprite2D" parent="."]
+position = Vector2(-376, 578)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja265" type="Sprite2D" parent="."]
+position = Vector2(-559.5, 538)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed356" type="Sprite2D" parent="."]
+position = Vector2(-658.5, 538)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed357" type="Sprite2D" parent="."]
+position = Vector2(-475, 578)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy371" type="Sprite2D" parent="."]
+position = Vector2(-398.5, 614)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked172" type="Sprite2D" parent="."]
+position = Vector2(-556.5, 586)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed358" type="Sprite2D" parent="."]
+position = Vector2(-472.5, 626)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy372" type="Sprite2D" parent="."]
+position = Vector2(-160, 542)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy373" type="Sprite2D" parent="."]
+position = Vector2(-126, 558)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja266" type="Sprite2D" parent="."]
+position = Vector2(-50, 594)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy374" type="Sprite2D" parent="."]
+position = Vector2(-208, 566)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja267" type="Sprite2D" parent="."]
+position = Vector2(51, 641)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja268" type="Sprite2D" parent="."]
+position = Vector2(-131, 602)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked173" type="Sprite2D" parent="."]
+position = Vector2(-47, 642)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed359" type="Sprite2D" parent="."]
+position = Vector2(-230, 602)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy375" type="Sprite2D" parent="."]
+position = Vector2(30, 678)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked174" type="Sprite2D" parent="."]
+position = Vector2(-128, 650)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed360" type="Sprite2D" parent="."]
+position = Vector2(-44, 690)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy376" type="Sprite2D" parent="."]
+position = Vector2(-302.5, 615)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed361" type="Sprite2D" parent="."]
+position = Vector2(-226, 651)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja269" type="Sprite2D" parent="."]
+position = Vector2(-191.5, 667)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy377" type="Sprite2D" parent="."]
+position = Vector2(-350.5, 639)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed362" type="Sprite2D" parent="."]
+position = Vector2(-90, 715)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked175" type="Sprite2D" parent="."]
+position = Vector2(-273, 675)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked176" type="Sprite2D" parent="."]
+position = Vector2(-189.5, 715)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed363" type="Sprite2D" parent="."]
+position = Vector2(-372.5, 675)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy378" type="Sprite2D" parent="."]
+position = Vector2(-112.5, 751)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked177" type="Sprite2D" parent="."]
+position = Vector2(-288, 715)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed364" type="Sprite2D" parent="."]
+position = Vector2(-186.5, 763)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy379" type="Sprite2D" parent="."]
+position = Vector2(-732, 550)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy380" type="Sprite2D" parent="."]
+position = Vector2(-698, 566)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja270" type="Sprite2D" parent="."]
+position = Vector2(-622, 602)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy381" type="Sprite2D" parent="."]
+position = Vector2(-780, 574)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja271" type="Sprite2D" parent="."]
+position = Vector2(-520, 650)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja272" type="Sprite2D" parent="."]
+position = Vector2(-703, 610)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked178" type="Sprite2D" parent="."]
+position = Vector2(-619, 650)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed365" type="Sprite2D" parent="."]
+position = Vector2(-802, 610)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed366" type="Sprite2D" parent="."]
+position = Vector2(-700, 658)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy382" type="Sprite2D" parent="."]
+position = Vector2(-542, 686)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed367" type="Sprite2D" parent="."]
+position = Vector2(-616, 698)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy383" type="Sprite2D" parent="."]
+position = Vector2(-874.5, 623)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed368" type="Sprite2D" parent="."]
+position = Vector2(-798, 659)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja273" type="Sprite2D" parent="."]
+position = Vector2(-763.5, 675)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy384" type="Sprite2D" parent="."]
+position = Vector2(-922.5, 647)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed369" type="Sprite2D" parent="."]
+position = Vector2(-662, 723)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja274" type="Sprite2D" parent="."]
+position = Vector2(-845.5, 683)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed370" type="Sprite2D" parent="."]
+position = Vector2(-944.5, 683)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja275" type="Sprite2D" parent="."]
+position = Vector2(-753, 727)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy385" type="Sprite2D" parent="."]
+position = Vector2(-684.5, 759)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked179" type="Sprite2D" parent="."]
+position = Vector2(-842.5, 731)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed371" type="Sprite2D" parent="."]
+position = Vector2(-758.5, 771)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy386" type="Sprite2D" parent="."]
+position = Vector2(-446, 687)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy387" type="Sprite2D" parent="."]
+position = Vector2(-412, 703)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja276" type="Sprite2D" parent="."]
+position = Vector2(-336, 739)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy388" type="Sprite2D" parent="."]
+position = Vector2(-494, 711)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja277" type="Sprite2D" parent="."]
+position = Vector2(-235, 786)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja278" type="Sprite2D" parent="."]
+position = Vector2(-417, 747)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed372" type="Sprite2D" parent="."]
+position = Vector2(-325, 791)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed373" type="Sprite2D" parent="."]
+position = Vector2(-516, 747)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy389" type="Sprite2D" parent="."]
+position = Vector2(-256, 823)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked180" type="Sprite2D" parent="."]
+position = Vector2(-414, 795)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed374" type="Sprite2D" parent="."]
+position = Vector2(-330, 835)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy390" type="Sprite2D" parent="."]
+position = Vector2(-588.5, 760)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed375" type="Sprite2D" parent="."]
+position = Vector2(-512, 796)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja279" type="Sprite2D" parent="."]
+position = Vector2(-477.5, 812)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy391" type="Sprite2D" parent="."]
+position = Vector2(-636.5, 784)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed376" type="Sprite2D" parent="."]
+position = Vector2(-376, 860)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja280" type="Sprite2D" parent="."]
+position = Vector2(-559.5, 820)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked181" type="Sprite2D" parent="."]
+position = Vector2(-475.5, 860)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed377" type="Sprite2D" parent="."]
+position = Vector2(-658.5, 820)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy392" type="Sprite2D" parent="."]
+position = Vector2(-398.5, 896)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked182" type="Sprite2D" parent="."]
+position = Vector2(-556.5, 868)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed378" type="Sprite2D" parent="."]
+position = Vector2(-472.5, 908)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy393" type="Sprite2D" parent="."]
+position = Vector2(127, 678)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy394" type="Sprite2D" parent="."]
+position = Vector2(161, 694)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja281" type="Sprite2D" parent="."]
+position = Vector2(237, 730)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy395" type="Sprite2D" parent="."]
+position = Vector2(79, 702)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja282" type="Sprite2D" parent="."]
+position = Vector2(339, 778)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja283" type="Sprite2D" parent="."]
+position = Vector2(156, 738)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked183" type="Sprite2D" parent="."]
+position = Vector2(240, 778)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed379" type="Sprite2D" parent="."]
+position = Vector2(57, 738)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy396" type="Sprite2D" parent="."]
+position = Vector2(317, 814)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked184" type="Sprite2D" parent="."]
+position = Vector2(159, 786)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed380" type="Sprite2D" parent="."]
+position = Vector2(243, 826)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy397" type="Sprite2D" parent="."]
+position = Vector2(-15.5, 751)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed381" type="Sprite2D" parent="."]
+position = Vector2(61, 787)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja284" type="Sprite2D" parent="."]
+position = Vector2(95.5, 803)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy398" type="Sprite2D" parent="."]
+position = Vector2(-63.5, 775)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed382" type="Sprite2D" parent="."]
+position = Vector2(197, 851)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja285" type="Sprite2D" parent="."]
+position = Vector2(13.5, 811)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed383" type="Sprite2D" parent="."]
+position = Vector2(-85.5, 811)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed384" type="Sprite2D" parent="."]
+position = Vector2(98, 851)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy399" type="Sprite2D" parent="."]
+position = Vector2(174.5, 887)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked185" type="Sprite2D" parent="."]
+position = Vector2(16.5, 859)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed385" type="Sprite2D" parent="."]
+position = Vector2(100.5, 899)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy400" type="Sprite2D" parent="."]
+position = Vector2(413, 815)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy401" type="Sprite2D" parent="."]
+position = Vector2(447, 831)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja286" type="Sprite2D" parent="."]
+position = Vector2(523, 867)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy402" type="Sprite2D" parent="."]
+position = Vector2(365, 839)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja287" type="Sprite2D" parent="."]
+position = Vector2(624, 914)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja288" type="Sprite2D" parent="."]
+position = Vector2(442, 875)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked186" type="Sprite2D" parent="."]
+position = Vector2(526, 915)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed386" type="Sprite2D" parent="."]
+position = Vector2(343, 875)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy403" type="Sprite2D" parent="."]
+position = Vector2(603, 951)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked187" type="Sprite2D" parent="."]
+position = Vector2(445, 923)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed387" type="Sprite2D" parent="."]
+position = Vector2(529, 963)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy404" type="Sprite2D" parent="."]
+position = Vector2(270.5, 888)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed388" type="Sprite2D" parent="."]
+position = Vector2(347, 924)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja289" type="Sprite2D" parent="."]
+position = Vector2(381.5, 940)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy405" type="Sprite2D" parent="."]
+position = Vector2(222.5, 912)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed389" type="Sprite2D" parent="."]
+position = Vector2(483, 988)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked188" type="Sprite2D" parent="."]
+position = Vector2(300, 948)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked189" type="Sprite2D" parent="."]
+position = Vector2(383.5, 988)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed390" type="Sprite2D" parent="."]
+position = Vector2(200.5, 948)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy406" type="Sprite2D" parent="."]
+position = Vector2(460.5, 1024)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked190" type="Sprite2D" parent="."]
+position = Vector2(285, 988)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed391" type="Sprite2D" parent="."]
+position = Vector2(386.5, 1036)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy407" type="Sprite2D" parent="."]
+position = Vector2(-159, 823)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy408" type="Sprite2D" parent="."]
+position = Vector2(-125, 839)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja290" type="Sprite2D" parent="."]
+position = Vector2(-49, 875)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy409" type="Sprite2D" parent="."]
+position = Vector2(-207, 847)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja291" type="Sprite2D" parent="."]
+position = Vector2(53, 923)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja292" type="Sprite2D" parent="."]
+position = Vector2(-130, 883)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked191" type="Sprite2D" parent="."]
+position = Vector2(-46, 923)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed392" type="Sprite2D" parent="."]
+position = Vector2(-229, 883)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed393" type="Sprite2D" parent="."]
+position = Vector2(-127, 931)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy410" type="Sprite2D" parent="."]
+position = Vector2(31, 959)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed394" type="Sprite2D" parent="."]
+position = Vector2(-43, 971)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy411" type="Sprite2D" parent="."]
+position = Vector2(-301.5, 896)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed395" type="Sprite2D" parent="."]
+position = Vector2(-225, 932)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja293" type="Sprite2D" parent="."]
+position = Vector2(-190.5, 948)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy412" type="Sprite2D" parent="."]
+position = Vector2(-349.5, 920)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed396" type="Sprite2D" parent="."]
+position = Vector2(-89, 996)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja294" type="Sprite2D" parent="."]
+position = Vector2(-272.5, 956)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed397" type="Sprite2D" parent="."]
+position = Vector2(-371.5, 956)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja295" type="Sprite2D" parent="."]
+position = Vector2(-180, 1000)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy413" type="Sprite2D" parent="."]
+position = Vector2(-111.5, 1032)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked192" type="Sprite2D" parent="."]
+position = Vector2(-269.5, 1004)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed398" type="Sprite2D" parent="."]
+position = Vector2(-185.5, 1044)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy414" type="Sprite2D" parent="."]
+position = Vector2(127, 960)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy415" type="Sprite2D" parent="."]
+position = Vector2(161, 976)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja296" type="Sprite2D" parent="."]
+position = Vector2(237, 1012)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy416" type="Sprite2D" parent="."]
+position = Vector2(79, 984)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja297" type="Sprite2D" parent="."]
+position = Vector2(338, 1059)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja298" type="Sprite2D" parent="."]
+position = Vector2(156, 1020)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed399" type="Sprite2D" parent="."]
+position = Vector2(248, 1064)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed400" type="Sprite2D" parent="."]
+position = Vector2(57, 1020)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy417" type="Sprite2D" parent="."]
+position = Vector2(317, 1096)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked193" type="Sprite2D" parent="."]
+position = Vector2(159, 1068)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed401" type="Sprite2D" parent="."]
+position = Vector2(243, 1108)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy418" type="Sprite2D" parent="."]
+position = Vector2(-15.5, 1033)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed402" type="Sprite2D" parent="."]
+position = Vector2(61, 1069)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja299" type="Sprite2D" parent="."]
+position = Vector2(95.5, 1085)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy419" type="Sprite2D" parent="."]
+position = Vector2(-63.5, 1057)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed403" type="Sprite2D" parent="."]
+position = Vector2(197, 1133)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja300" type="Sprite2D" parent="."]
+position = Vector2(13.5, 1093)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked194" type="Sprite2D" parent="."]
+position = Vector2(97.5, 1133)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed404" type="Sprite2D" parent="."]
+position = Vector2(-85.5, 1093)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy420" type="Sprite2D" parent="."]
+position = Vector2(174.5, 1169)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked195" type="Sprite2D" parent="."]
+position = Vector2(16.5, 1141)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed405" type="Sprite2D" parent="."]
+position = Vector2(100.5, 1181)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy421" type="Sprite2D" parent="."]
+position = Vector2(701, 951)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy422" type="Sprite2D" parent="."]
+position = Vector2(735, 967)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja301" type="Sprite2D" parent="."]
+position = Vector2(811, 1003)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy423" type="Sprite2D" parent="."]
+position = Vector2(653, 975)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja302" type="Sprite2D" parent="."]
+position = Vector2(913, 1051)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja303" type="Sprite2D" parent="."]
+position = Vector2(730, 1011)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked196" type="Sprite2D" parent="."]
+position = Vector2(814, 1051)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed406" type="Sprite2D" parent="."]
+position = Vector2(631, 1011)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy424" type="Sprite2D" parent="."]
+position = Vector2(891, 1087)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked197" type="Sprite2D" parent="."]
+position = Vector2(733, 1059)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed407" type="Sprite2D" parent="."]
+position = Vector2(817, 1099)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy425" type="Sprite2D" parent="."]
+position = Vector2(558.5, 1024)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed408" type="Sprite2D" parent="."]
+position = Vector2(635, 1060)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja304" type="Sprite2D" parent="."]
+position = Vector2(669.5, 1076)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy426" type="Sprite2D" parent="."]
+position = Vector2(510.5, 1048)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed409" type="Sprite2D" parent="."]
+position = Vector2(771, 1124)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja305" type="Sprite2D" parent="."]
+position = Vector2(587.5, 1084)
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed410" type="Sprite2D" parent="."]
+position = Vector2(488.5, 1084)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed411" type="Sprite2D" parent="."]
+position = Vector2(672, 1124)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy427" type="Sprite2D" parent="."]
+position = Vector2(748.5, 1160)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked198" type="Sprite2D" parent="."]
+position = Vector2(590.5, 1132)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed412" type="Sprite2D" parent="."]
+position = Vector2(674.5, 1172)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy428" type="Sprite2D" parent="."]
+position = Vector2(987, 1088)
+texture = ExtResource("1_36hwi")
+
+[node name="Levy429" type="Sprite2D" parent="."]
+position = Vector2(1021, 1104)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja306" type="Sprite2D" parent="."]
+position = Vector2(1097, 1140)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy430" type="Sprite2D" parent="."]
+position = Vector2(939, 1112)
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja307" type="Sprite2D" parent="."]
+position = Vector2(1198, 1187)
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja308" type="Sprite2D" parent="."]
+position = Vector2(1016, 1148)
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked199" type="Sprite2D" parent="."]
+position = Vector2(1100, 1188)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed413" type="Sprite2D" parent="."]
+position = Vector2(917, 1148)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy431" type="Sprite2D" parent="."]
+position = Vector2(1177, 1224)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked200" type="Sprite2D" parent="."]
+position = Vector2(1019, 1196)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed414" type="Sprite2D" parent="."]
+position = Vector2(1103, 1236)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy432" type="Sprite2D" parent="."]
+position = Vector2(844.5, 1161)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed415" type="Sprite2D" parent="."]
+position = Vector2(921, 1197)
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja309" type="Sprite2D" parent="."]
+position = Vector2(955.5, 1213)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy433" type="Sprite2D" parent="."]
+position = Vector2(796.5, 1185)
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed416" type="Sprite2D" parent="."]
+position = Vector2(1057, 1261)
+texture = ExtResource("4_mbvbu")
+
+[node name="TileCracked201" type="Sprite2D" parent="."]
+position = Vector2(874, 1221)
+texture = ExtResource("3_x77p7")
+
+[node name="TileCracked202" type="Sprite2D" parent="."]
+position = Vector2(957.5, 1261)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed417" type="Sprite2D" parent="."]
+position = Vector2(774.5, 1221)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy434" type="Sprite2D" parent="."]
+position = Vector2(1034.5, 1297)
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked203" type="Sprite2D" parent="."]
+position = Vector2(859, 1261)
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed418" type="Sprite2D" parent="."]
+position = Vector2(960.5, 1309)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy435" type="Sprite2D" parent="."]
+position = Vector2(415, 1096)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy436" type="Sprite2D" parent="."]
+position = Vector2(449, 1112)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja310" type="Sprite2D" parent="."]
+position = Vector2(525, 1148)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy437" type="Sprite2D" parent="."]
+position = Vector2(367, 1120)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja311" type="Sprite2D" parent="."]
+position = Vector2(627, 1196)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja312" type="Sprite2D" parent="."]
+position = Vector2(444, 1156)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked204" type="Sprite2D" parent="."]
+position = Vector2(528, 1196)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed419" type="Sprite2D" parent="."]
+position = Vector2(345, 1156)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed420" type="Sprite2D" parent="."]
+position = Vector2(447, 1204)
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy438" type="Sprite2D" parent="."]
+position = Vector2(605, 1232)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed421" type="Sprite2D" parent="."]
+position = Vector2(531, 1244)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy439" type="Sprite2D" parent="."]
+position = Vector2(272.5, 1169)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed422" type="Sprite2D" parent="."]
+position = Vector2(349, 1205)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja313" type="Sprite2D" parent="."]
+position = Vector2(383.5, 1221)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy440" type="Sprite2D" parent="."]
+position = Vector2(224.5, 1193)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed423" type="Sprite2D" parent="."]
+position = Vector2(485, 1269)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja314" type="Sprite2D" parent="."]
+position = Vector2(301.5, 1229)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed424" type="Sprite2D" parent="."]
+position = Vector2(202.5, 1229)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja315" type="Sprite2D" parent="."]
+position = Vector2(394, 1273)
+texture = ExtResource("2_7rshy")
+
+[node name="Levy441" type="Sprite2D" parent="."]
+position = Vector2(462.5, 1305)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked205" type="Sprite2D" parent="."]
+position = Vector2(304.5, 1277)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed425" type="Sprite2D" parent="."]
+position = Vector2(388.5, 1317)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy442" type="Sprite2D" parent="."]
+position = Vector2(701, 1233)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Levy443" type="Sprite2D" parent="."]
+position = Vector2(735, 1249)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja316" type="Sprite2D" parent="."]
+position = Vector2(811, 1285)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy444" type="Sprite2D" parent="."]
+position = Vector2(653, 1257)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Kivipohja317" type="Sprite2D" parent="."]
+position = Vector2(912, 1332)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Kivipohja318" type="Sprite2D" parent="."]
+position = Vector2(730, 1293)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Tilegrassed426" type="Sprite2D" parent="."]
+position = Vector2(822, 1337)
+texture = ExtResource("4_mbvbu")
+
+[node name="Tilegrassed427" type="Sprite2D" parent="."]
+position = Vector2(631, 1293)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy445" type="Sprite2D" parent="."]
+position = Vector2(891, 1369)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked206" type="Sprite2D" parent="."]
+position = Vector2(733, 1341)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed428" type="Sprite2D" parent="."]
+position = Vector2(817, 1381)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy446" type="Sprite2D" parent="."]
+position = Vector2(558.5, 1306)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed429" type="Sprite2D" parent="."]
+position = Vector2(635, 1342)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja319" type="Sprite2D" parent="."]
+position = Vector2(669.5, 1358)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="Levy447" type="Sprite2D" parent="."]
+position = Vector2(510.5, 1330)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="Tilegrassed430" type="Sprite2D" parent="."]
+position = Vector2(771, 1406)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Kivipohja320" type="Sprite2D" parent="."]
+position = Vector2(587.5, 1366)
+rotation = 6.28319
+texture = ExtResource("2_7rshy")
+
+[node name="TileCracked207" type="Sprite2D" parent="."]
+position = Vector2(671.5, 1406)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed431" type="Sprite2D" parent="."]
+position = Vector2(488.5, 1366)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")
+
+[node name="Levy448" type="Sprite2D" parent="."]
+position = Vector2(748.5, 1442)
+rotation = 6.28319
+texture = ExtResource("1_36hwi")
+
+[node name="TileCracked208" type="Sprite2D" parent="."]
+position = Vector2(590.5, 1414)
+rotation = 6.28319
+texture = ExtResource("3_x77p7")
+
+[node name="Tilegrassed432" type="Sprite2D" parent="."]
+position = Vector2(674.5, 1454)
+rotation = 6.28319
+texture = ExtResource("4_mbvbu")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dra4ooyp0ji05"
-path="res://.godot/imported/Example Picture.png-70378bb566e577f3e7442ff374e3cfdf.ctex"
+uid="uid://c03tbntslb7vi"
+path="res://.godot/imported/kivipohja.png-8c507eaa90d6bd55a80fbb62d117fbf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Assets - Basic Cubes/Example Picture.png"
-dest_files=["res://.godot/imported/Example Picture.png-70378bb566e577f3e7442ff374e3cfdf.ctex"]
+source_file="res://Assets/Tileset/kivipohja.png"
+dest_files=["res://.godot/imported/kivipohja.png-8c507eaa90d6bd55a80fbb62d117fbf6.ctex"]
 
 [params]
 
