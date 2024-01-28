@@ -1,4 +1,5 @@
 extends Area2D
+class_name Bullet
 
 # Required by the pool.gd
 @export var dead : bool = false

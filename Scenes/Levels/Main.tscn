@@ -1,10 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://d2kmhotfobadm"]
+[gd_scene load_steps=7 format=3 uid="uid://d2kmhotfobadm"]
 
 [ext_resource type="Script" path="res://Src/Main.gd" id="1_pp0ss"]
 [ext_resource type="PackedScene" uid="uid://dxitnf0ko0d5r" path="res://Scenes/Components/player.tscn" id="2_pyvxm"]
 [ext_resource type="Script" path="res://Src/LookPoint.gd" id="3_4ygls"]
 [ext_resource type="Script" path="res://Src/Bandollier.gd" id="3_us10r"]
-[ext_resource type="PackedScene" uid="uid://dgpdqxn3gdb0u" path="res://Scenes/Components/bullet.tscn" id="4_sv5iy"]
 [ext_resource type="PackedScene" uid="uid://qdvysnba7ihu" path="res://Scenes/Components/Boss1.tscn" id="6_2ki48"]
 [ext_resource type="Texture2D" uid="uid://ck53pjkuot6mh" path="res://Assets/Tileset/Assets - Basic Cubes/Materials/GROUND.png" id="7_2oak0"]
 
@@ -53,11 +52,50 @@ position_smoothing_speed = 10.0
 [node name="Gestation" type="Timer" parent="."]
 autostart = true
 
-[node name="BulletPool" parent="." instance=ExtResource("4_sv5iy")]
-
 [node name="Boss1" parent="." instance=ExtResource("6_2ki48")]
 
 [node name="Bandollier" type="Node" parent="."]
 script = ExtResource("3_us10r")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -238.0
+offset_top = 13.0
+offset_right = -10.0
+offset_bottom = 152.0
+grow_horizontal = 0
+
+[node name="BossHealth" type="Label" parent="CanvasLayer/Panel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 17.0
+offset_right = 1.0
+offset_bottom = -67.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Boss:    1000"
+vertical_alignment = 1
+
+[node name="PlayerHealth" type="Label" parent="CanvasLayer/Panel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 21.0
+offset_top = 68.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Player: 1000"
+vertical_alignment = 1
 
 [connection signal="timeout" from="Gestation" to="." method="_on_spawn"]
