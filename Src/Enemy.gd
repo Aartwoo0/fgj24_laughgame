@@ -66,14 +66,17 @@ func _on_player_area_entered(enemy_area):
 		self.queue_free()
 
 
-func _on_enemy_hitbox_area_entered(bullet):
-	if bullet is Bullet:
-		bullet.visible = false
-		self.bounce = bullet.direction * 10
+func _on_enemy_hitbox_area_entered(object):
+	if object is Bullet:
+		object.visible = false # back to the pool you go
+		self.bounce = object.direction * 10
 		if self.state < 1:
 			self.state += 500
-	if bullet is Stick:
-		var dir = self.global_position.direction_to(bullet.global_position)
-		self.bounce = bullet.velocity * dir.rotated(PI / 2) * 50
+	if object is Stick:
+		var dir = self.global_position.direction_to(object.global_position)
+		if object.velocity>0:
+			self.bounce = abs(object.velocity) * dir.rotated(3*PI / 4) * 50
+		else:
+			self.bounce = abs(object.velocity) * dir.rotated(-3*PI / 4) * 50
 		if self.state < 1:
 			self.state = 100
