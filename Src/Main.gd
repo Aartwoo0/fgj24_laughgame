@@ -25,7 +25,6 @@ func _on_spawn():
 	enemy.target = $Player
 	self.add_child(enemy)
 	
-	$Boss.area_entered.connect($Boss._on_boss_area_entered)
 	enemy.area_entered.connect($Player._on_enemy_area_entered)
 	$Player.area_entered.connect(enemy._on_player_area_entered)
 	

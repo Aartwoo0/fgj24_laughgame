@@ -94,3 +94,7 @@ func _on_enemy_area_entered(enemy_area):
 	if enemy_area is Player:
 		self.health -= 1
 		player_health.text = 'Player: ' + str(self.health)
+		
+		if self.health == 0:
+			Globals.won_last_game = false
+			get_tree().change_scene_to_file("res://Scenes/Levels/TheEnd.tscn")

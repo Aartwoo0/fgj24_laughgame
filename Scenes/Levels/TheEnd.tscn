@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctn3edads16v7"]
+
+[ext_resource type="Texture2D" uid="uid://ns5nmopv6g11" path="res://Assets/endgame.png" id="1_dq57e"]
+[ext_resource type="Script" path="res://Src/NewGameButton.gd" id="2_y4j5w"]
+
+[node name="TheEnd" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(574.5, 323.5)
+scale = Vector2(0.642299, 0.62793)
+texture = ExtResource("1_dq57e")
+
+[node name="NewGameButton" type="Button" parent="."]
+offset_left = 25.0
+offset_top = 73.0
+offset_right = 1131.0
+offset_bottom = 213.0
+theme_override_font_sizes/font_size = 96
+text = "You win, new game?"
+script = ExtResource("2_y4j5w")
+
+[connection signal="pressed" from="NewGameButton" to="NewGameButton" method="_on_pressed"]

@@ -2,3 +2,6 @@
 .godot/
 addons
 !addons/pool.gd
+
+Deploy
+Deploy.zip
