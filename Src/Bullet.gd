@@ -20,14 +20,14 @@ func shoot(towards):
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if originator!=null:
+	if originator != null:
 		origin = originator.position
 		
-	self.position += direction*speed*delta
+	self.position += direction * speed * delta
 	$Jacket.rotation = direction.angle()
 	
 	var dist = origin.distance_to(self.position)
-	if dist>dissappear_threshold:
+	if dist > dissappear_threshold:
 		self.visible = false
 		
 	
