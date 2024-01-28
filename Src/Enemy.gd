@@ -5,8 +5,10 @@ class_name Enemy
 
 static var friends : int = 0
 static var center : Vector2 = Vector2(100,100)
+
 var state : int = -1000
 var mood : int = -1
+var bounce : Vector2 = Vector2(0,0)
 var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
@@ -51,6 +53,9 @@ func _process(delta):
 			self.position = self.position + tangent * speed * delta
 		if Enemy.friends > 0:
 			Enemy.center += (self.position - Enemy.center) / Enemy.friends
+	
+	self.position += self.bounce
+	self.bounce=self.bounce/2
 
 
 func _on_player_area_entered(enemy_area):
@@ -62,5 +67,6 @@ func _on_player_area_entered(enemy_area):
 func _on_enemy_hitbox_area_entered(bullet):
 	if bullet is Bullet:
 		bullet.visible = false
+		self.bounce = bullet.direction * 10
 		if self.state < 1:
 			self.state += 500
