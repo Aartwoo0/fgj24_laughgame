@@ -13,8 +13,7 @@ var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	self.area_entered.connect(self.target._on_enemy_area_entered)
-	self.target.area_entered.connect(self._on_player_area_entered)
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

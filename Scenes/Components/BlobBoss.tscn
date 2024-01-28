@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://qdvysnba7ihu"]
 
-[ext_resource type="Script" path="res://Src/Boss1.gd" id="1_y2a46"]
+[ext_resource type="Script" path="res://Src/BlobBoss.gd" id="1_wotp3"]
 [ext_resource type="Texture2D" uid="uid://cayw25eiktccx" path="res://Assets/Sprites/BlobBoss.png" id="2_6d58o"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u5d2r"]
@@ -28,10 +28,10 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_sahxp"]
 radius = 22.5887
 
-[node name="Boss1" type="Area2D"]
+[node name="BlobBoss" type="Area2D"]
 position = Vector2(174, 79)
 scale = Vector2(1.5, 1.5)
-script = ExtResource("1_y2a46")
+script = ExtResource("1_wotp3")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
