@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://bwa6h1jwoci3e"]
 
 [ext_resource type="Texture2D" uid="uid://bfuqrmlgh563q" path="res://Assets/Sprites/Angryenemy.png" id="1_pw0wy"]
-[ext_resource type="Script" path="res://Scenes/Components/enemy.gd" id="1_xc4sj"]
+[ext_resource type="Script" path="res://Src/Enemy.gd" id="1_xc4sj"]
 [ext_resource type="Texture2D" uid="uid://ie6w1llx7x7w" path="res://Assets/Sprites/Happyenemy.png" id="2_65eik"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ycas4"]

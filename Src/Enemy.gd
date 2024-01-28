@@ -1,5 +1,5 @@
 extends Area2D
-class_name MOTHERFUCKERSHITFUCKCUNTASS
+class_name Enemy
 @export var speed : float = 100
 @export var target : Area2D
 
@@ -23,7 +23,7 @@ func _process(delta):
 		if self.mood > 0:
 			$AngrySkin.visible = true
 			$HappySkin.visible = false
-			MOTHERFUCKERSHITFUCKCUNTASS.friends-=1
+			Enemy.friends-=1
 			self.mood = -1
 			self.speed = 100
 		if not self.has_overlapping_areas():
@@ -38,19 +38,19 @@ func _process(delta):
 		if self.mood < 1:
 			$AngrySkin.visible = false
 			$HappySkin.visible = true
-			MOTHERFUCKERSHITFUCKCUNTASS.friends+=1
+			Enemy.friends+=1
 			self.mood = 1
 			self.speed = 50
 		if not self.has_overlapping_areas():
-			self.position = self.position.move_toward(MOTHERFUCKERSHITFUCKCUNTASS.center, speed * delta)
+			self.position = self.position.move_toward(Enemy.center, speed * delta)
 		else:
-			var direction = self.position.move_toward(MOTHERFUCKERSHITFUCKCUNTASS.center,speed * delta) - self.position
+			var direction = self.position.move_toward(Enemy.center,speed * delta) - self.position
 			var avoid = PI * 3 / 4
 			var random = self.rng.randi_range(-1,1)
 			var tangent = Vector2.from_angle(direction.angle() + avoid * random)
 			self.position = self.position + tangent * speed * delta
-		if MOTHERFUCKERSHITFUCKCUNTASS.friends > 0:
-			MOTHERFUCKERSHITFUCKCUNTASS.center += (self.position - MOTHERFUCKERSHITFUCKCUNTASS.center) / MOTHERFUCKERSHITFUCKCUNTASS.friends
+		if Enemy.friends > 0:
+			Enemy.center += (self.position - Enemy.center) / Enemy.friends
 
 
 func _on_player_area_entered(enemy_area):
