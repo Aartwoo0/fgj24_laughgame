@@ -61,4 +61,4 @@ func _on_player_area_entered(enemy_area):
 
 
 func _on_enemy_hitbox_area_entered(bullet):
-	
+	pass

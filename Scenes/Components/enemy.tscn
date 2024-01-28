@@ -87,7 +87,6 @@ height = 18.0
 [node name="Enemy" type="Area2D"]
 texture_filter = 1
 script = ExtResource("1_xc4sj")
-speed = null
 
 [node name="AngrySkin" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
